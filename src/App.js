@@ -42,7 +42,7 @@ function App() {
     };
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/generate', {
+      const response = await fetch('https://torah-ai-backend.onrender.com/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
@@ -51,7 +51,6 @@ function App() {
       if (!response.ok) throw new Error('Network response was not ok');
       const data = await response.json();
 
-      // Flatten all *_responses arrays into one
       const allResponses = Object.values(data).flat();
       setTorahResponses(allResponses);
     } catch (error) {
@@ -64,7 +63,6 @@ function App() {
       <h1>Torah AI Companion</h1>
 
       <form onSubmit={handleSubmit}>
-        {/* Theme Dropdown */}
         <div>
           <label>Theme:</label>
           <select value={selectedTheme} onChange={(e) => {
@@ -79,7 +77,6 @@ function App() {
           </select>
         </div>
 
-        {/* Main Category Dropdown */}
         {selectedTheme && (
           <div>
             <label>Main Category:</label>
@@ -95,7 +92,6 @@ function App() {
           </div>
         )}
 
-        {/* Subcategory Dropdown */}
         {selectedMainCategory && (
           <div>
             <label>Subcategory:</label>
@@ -108,7 +104,6 @@ function App() {
           </div>
         )}
 
-        {/* Source Category Checkboxes */}
         <div style={{ marginTop: '1rem' }}>
           <label><strong>Select Source Types:</strong></label>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
@@ -133,7 +128,6 @@ function App() {
           </div>
         </div>
 
-        {/* Prompt Input */}
         <div style={{ marginTop: '1rem' }}>
           <label>Your Prompt:</label>
           <input
