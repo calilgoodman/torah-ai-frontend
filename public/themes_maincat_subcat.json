@@ -1,0 +1,1970 @@
+{
+  "Challenge, Crisis & Recovery": {
+    "Crisis": [
+      "Career Crisis", "Crisis of Confidence", "Crisis of Faith", "Emotional Breakdown", "Existential Crisis",
+      "Financial Crisis", "Identity Crisis", "Mental Health Crisis", "Moral Dilemma Crisis",
+      "Personal Breakdown", "Relationship Crisis", "Spiritual Crisis", "Sudden Change", "Sudden Loss", "Workplace Crisis"
+    ],
+    "Destruction": [
+      "Career Collapse", "Community Collapse", "Dealing with Exhaustion", "Dreams Shattered",
+      "Emotional Wreckage", "Family Loss", "Financial Ruin", "Health Decline", "Loss of Reputation",
+      "Mental Breakdown", "Physical Injury", "Property Damage", "Relationship Breakdown", "Trust Destroyed"
+    ],
+    "Escape": [
+      "Avoiding Uncomfortable Realities", "Breaking Free from Addiction", "Breaking Free from Stagnation",
+      "Escaping a Trapped Life", "Escaping Emotional Constraints", "Escaping Toxic Environments",
+      "Fleeing from Danger", "Mental Escape", "Running Away from Fear", "Running from Abuse",
+      "Seeking Refuge", "Seeking Shelter from the Storm", "Seeking Spiritual Solace"
+    ],
+    "Fighting Against Odds": [
+      "Advocating for Change", "Against Social Expectations", "Battling Chronic Illness", "Battling Societal Norms",
+      "Challenging Injustice", "Fighting for Justice", "Fighting for Personal Truth", "Overcoming Disabilities",
+      "Overcoming Self-Doubt", "Overcoming Setbacks", "Pursuing a Dream Against All Odds", "Resisting Oppression",
+      "Struggling Against Doubt"
+    ],
+    "Hardship": [
+      "Dealing with Disappointments", "Dealing with Failure", "Economic Struggles", "Emotional Turmoil",
+      "Family Challenges", "Financial Hardship", "Homelessness", "Loss of a Loved One", "Physical Pain",
+      "Separation from Loved Ones", "Struggling with Addiction", "Suffering from Loss", "Tough Times at Work"
+    ],
+    "Healing": [
+      "Coping with Trauma", "Emotional Restoration", "Forgiveness", "Healing Relationships", "Healing the Inner Child",
+      "Letting Go of Anger", "Letting Go of Pain", "Reconciliation", "Reconnecting with Oneself",
+      "Restoring Trust", "Spiritual Healing", "Therapeutic Growth"
+    ],
+    "Health": [
+      "Chronic Illness", "Coping with Depression", "Dealing with Disease", "Managing Anxiety", "Managing Stress",
+      "Mental Health Struggles", "Overcoming Fatigue", "Physical Rehabilitation", "Recovering from Injury",
+      "Self-Care", "Weight Loss or Gain", "Wellness Struggles"
+    ],
+    "Illness": [
+      "Battling Chronic Illness", "Coping with Sickness", "Disease Impact on Family", "Illness-related Anxiety",
+      "Living with Illness", "Managing Long-term Illness", "Overcoming Health Setbacks",
+      "Psychological Effects of Illness", "Recovering from Illness", "Terminal Illness"
+    ],
+    "Jeopardy": [
+      "Facing Danger", "High-Risk Environments", "Life-Threatening Situations", "Risk of Injury",
+      "Running Out of Time", "Threatened Safety", "Uncertainty in Dangerous Situations", "Vulnerability to Harm"
+    ],
+    "Loss": [
+      "Bereavement", "Career Loss", "Loss of Confidence", "Loss of Connection", "Loss of Health",
+      "Loss of Hope", "Loss of Identity", "Loss of Love", "Loss of Memory", "Loss of Peace",
+      "Loss of Trust", "Mourning"
+    ],
+    "Navigating Obstacles": [
+      "Coping with Roadblocks", "Dealing with Barriers", "Facing Challenges at Work", "Managing Stress and Strain",
+      "Overcoming Personal Limitations", "Problem Solving under Pressure", "Working through Difficulty"
+    ],
+    "Overcoming": [
+      "Achieving Personal Goals", "Beating Addiction", "Breaking Through Mental Barriers", "Overcoming Doubt",
+      "Pushing Past Fear", "Recovering from Failure", "Resilience in Action", "Rising Above Challenges",
+      "Succeeding After Setbacks"
+    ],
+    "Quarrel": [
+      "Conflict Resolution", "Disagreements with Loved Ones", "Family Arguments", "Handling Misunderstandings",
+      "Managing Hostility", "Overcoming Disputes", "Resolving Conflict in Relationships", "Strained Family Relations"
+    ],
+    "Recovery": [
+      "Beginning Anew", "Faith After Tragedy", "Finding Hope", "Gratitude in Healing", "Inner Strength",
+      "Learning from Pain", "Moving Forward", "Overcoming Fear", "Rebuilding Life", "Rediscovering Joy",
+      "Spiritual Reawakening", "Starting Over", "Turning Darkness into Light"
+    ],
+    "Resistance": [
+      "Fighting against Oppression", "Fighting Social Norms", "Overcoming Restrictions", "Rebelling Against Control",
+      "Resisting Peer Pressure", "Resisting Temptation", "Standing Against Injustice", "Standing Up for Rights"
+    ],
+    "Survival": [
+      "Adapting to Harsh Conditions", "Coping with Trauma", "Enduring Through Hardship", "Fending for Oneself",
+      "Navigating Life-Threatening Situations", "Overcoming Fear for Survival", "Preparing for Disasters",
+      "Survival in Nature"
+    ],
+    "Tribulation": [
+      "Battling Life’s Struggles", "Enduring Hard Times", "Facing Life’s Trials", "Learning from Hardship",
+      "Overcoming Adversity", "Overcoming Suffering", "Persevering Through Challenges"
+    ],
+    "Turmoil": [
+      "Emotional Chaos", "Family Unrest", "Inner Struggle", "Mental Conflict", "Personal Crisis",
+      "Psychological Turmoil", "Social Disarray", "Turmoil in Relationships"
+    ],
+    "Violence": [
+      "Dealing with the Aftermath of Violence", "Domestic Violence", "Exposure to Violence", "Physical Abuse",
+      "Verbal Abuse", "Violence in Relationships", "Violence in Society", "Witnessing Violence"
+    ],
+    "Warfare": [
+      "Combat Trauma", "Dealing with War-related Stress", "Fighting for Survival", "Impact of War on Families",
+      "Overcoming PTSD", "Recovering from War Experiences", "War-time Challenges"
+  ]
+},
+"Cognitive Growth & Perspective": {
+    "Adjusting to New Environments": [
+      "Coping with Change",
+      "Embracing Uncertainty",
+      "Flexibility in Thought",
+      "Navigating Transitions",
+      "Open-Mindedness",
+      "Problem-Solving",
+      "Resilience to Change",
+      "Transforming Challenges into Opportunities"
+    ],
+    "Artistry": [
+      "Artistic Exploration",
+      "Artistic Insight",
+      "Craftsmanship",
+      "Creative Expression",
+      "Designing with Purpose",
+      "Imagination in Action",
+      "Inventiveness",
+      "Visionary Thinking",
+      "Visual Storytelling"
+    ],
+    "Attention": [
+      "Cognitive Attention",
+      "Concentration",
+      "Cultivating Patience",
+      "Enhancing Mental Focus",
+      "Focused Attention",
+      "Mindfulness",
+      "Present-Moment Awareness",
+      "Selective Attention",
+      "Sustained Focus"
+    ],
+    "Building Relationships": [
+      "Building Community",
+      "Conflict Resolution",
+      "Deepening Connections",
+      "Effective Communication",
+      "Empathy in Relationships",
+      "Fostering Mutual Respect",
+      "Relationship Maintenance",
+      "Teamwork",
+      "Trust-Building"
+    ],
+    "Clarity": [
+      "Clarity in Prioritization",
+      "Clear Communication",
+      "Decision-Making with Clarity",
+      "Discerning Truth",
+      "Mental Clarity",
+      "Self-Awareness",
+      "Simplifying the Complex",
+      "Understanding Complex Ideas",
+      "Vision Clarity"
+    ],
+    "Collaboration": [
+      "Building Synergy",
+      "Collaborative Learning",
+      "Collective Problem-Solving",
+      "Cross-Functional Collaboration",
+      "Effective Group Dynamics",
+      "Joint Efforts",
+      "Partnership and Cooperation",
+      "Shared Vision",
+      "Teamwork"
+    ],
+    "Creativity": [
+      "Artistic Innovation",
+      "Brainstorming Ideas",
+      "Creative Problem-Solving",
+      "Designing New Solutions",
+      "Divergent Thinking",
+      "Imagination Unleashed",
+      "Innovation",
+      "Originality in Action",
+      "Thinking Outside the Box"
+    ],
+    "Evaluating One’s Actions": [
+      "Accountability",
+      "Analyzing Past Experiences",
+      "Continuous Improvement",
+      "Ethical Reflection",
+      "Judging Effectiveness",
+      "Reflecting on Decisions",
+      "Self-Assessment",
+      "Taking Responsibility for Actions",
+      "Weighing Consequences"
+    ],
+    "Keenness": [
+      "Attentive Observation",
+      "Curiosity and Exploration",
+      "Eagerness to Understand",
+      "Enthusiasm for Learning",
+      "Focused Energy",
+      "Intellectual Passion",
+      "Mental Agility",
+      "Sharpness of Mind",
+      "Thirst for Insight"
+    ],
+    "Knowledge": [
+      "Acquiring Expertise",
+      "Building Understanding",
+      "Curating Knowledge",
+      "Educating Others",
+      "Exploring New Fields",
+      "Learning from Experience",
+      "Scientific Knowledge",
+      "Self-Education",
+      "Synthesizing Information"
+    ],
+    "Learning from Mistakes": [
+      "Adapting from Errors",
+      "Embracing Failure as a Learning Tool",
+      "Growth Through Setbacks",
+      "Overcoming Regret",
+      "Reframing Failure",
+      "Resilience through Lessons Learned",
+      "Self-Improvement",
+      "Turning Mistakes into Opportunities",
+      "Wisdom from Missteps"
+    ],
+    "Listening": [
+      "Active Listening",
+      "Attentive Hearing",
+      "Empathetic Listening",
+      "Hearing Beyond Words",
+      "Listening for Learning",
+      "Listening to Understand",
+      "Open-Eared Communication",
+      "Patient Listening",
+      "Responding with Consideration"
+    ],
+    "Mentorship": [
+      "Career Guidance",
+      "Coaching",
+      "Developing Future Leaders",
+      "Encouraging Potential",
+      "Offering Guidance",
+      "Providing Feedback",
+      "Sharing Wisdom",
+      "Supporting Others’ Growth",
+      "Teaching by Example"
+    ],
+    "Perspective": [
+      "Balancing Multiple Views",
+      "Challenging One’s Assumptions",
+      "Expanding Awareness",
+      "Gaining New Insights",
+      "Reframing Experiences",
+      "Seeing the Bigger Picture",
+      "Shifting Viewpoints",
+      "Understanding Different Viewpoints",
+      "Viewing Life Holistically"
+    ],
+    "Prioritization": [
+      "Aligning Actions with Goals",
+      "Effective Decision Making",
+      "Focusing on What Matters",
+      "Goal Setting",
+      "Identifying Key Priorities",
+      "Managing Multiple Tasks",
+      "Setting Boundaries",
+      "Setting Life Goals",
+      "Time Management"
+    ],
+    "Purpose": [
+      "Aligning Values with Actions",
+      "Defining Personal Legacy",
+      "Finding Meaning in Life",
+      "Life Vision",
+      "Living with Intent",
+      "Meaningful Work",
+      "Personal Mission",
+      "Pursuing Calling",
+      "Understanding One’s Role in the World"
+    ],
+    "Strategy": [
+      "Anticipating Challenges",
+      "Decision-Making Frameworks",
+      "Developing a Roadmap",
+      "Goal-Oriented Planning",
+      "Long-Term Planning",
+      "Resource Management",
+      "Risk Assessment",
+      "Tactical Thinking",
+      "Vision Execution"
+    ],
+    "Understanding Others’ Plights": [
+      "Active Compassion",
+      "Compassionate Action",
+      "Emotional Intelligence",
+      "Empathy for Others",
+      "Recognizing Others’ Struggles",
+      "Recognizing Shared Humanity",
+      "Relating to Pain",
+      "Social Awareness",
+      "Supporting the Vulnerable"
+    ],
+    "Vision": [
+      "Aspiring to Greatness",
+      "Dreaming Big",
+      "Future Planning",
+      "Goal Visualization",
+      "Inspiring Others",
+      "Long-Term Vision",
+      "Strategic Foresight",
+      "Understanding the Bigger Picture",
+      "Visionary Leadership"
+    ],
+    "Wisdom": [
+      "Applying Knowledge Thoughtfully",
+      "Cultivating Discernment",
+      "Emotional Wisdom",
+      "Learning from the Past",
+      "Life Experience and Knowledge",
+      "Patience and Understanding",
+      "Seeking Deeper Understanding",
+      "Thoughtful Decision Making",
+      "Wisdom in Action"
+    ]
+},
+"Hope, Healing & Renewal": {
+      "Healing Through Connection": [
+      "Holistic Recovery",
+      "Mental Wellness",
+      "Physical Recovery",
+      "Recovery from Trauma",
+      "Restorative Practices",
+      "Self-Care",
+      "Soothing the Spirit"
+    ],
+    "Hope": [
+      "Belief in Change",
+      "Dreams for Tomorrow",
+      "Faith in the Future",
+      "Finding Light in Darkness",
+      "Hope in Dark Times",
+      "Optimism",
+      "Positive Expectations",
+      "Strength from Hope",
+      "Trust in Tomorrow"
+    ],
+    "New Beginnings": [
+      "Beginning Again",
+      "Creating a New Path",
+      "Embracing Change",
+      "Fresh Starts",
+      "Rebirth",
+      "Starting Fresh",
+      "The Power of a New Chapter",
+      "Turning Over a New Leaf"
+    ],
+    "New Opportunities After Setbacks": [
+      "Bouncing Back from Failure",
+      "Finding New Directions",
+      "Growth Through Adversity",
+      "Overcoming Obstacles",
+      "Reinvention After Loss",
+      "Resilience After Setbacks",
+      "Seizing Second Chances",
+      "Turning Challenges into Opportunities",
+      "Unlocking New Potential"
+    ],
+    "Redemption": [
+      "Making Amends",
+      "Overcoming Past Mistakes",
+      "Reclaiming One’s Path",
+      "Redemption Through Action",
+      "Regaining Integrity",
+      "Restoring Honor",
+      "Seeking Forgiveness",
+      "Self-Redemption"
+    ],
+    "Renewal": [
+      "Fresh Perspectives",
+      "Rebuilding Strength",
+      "Recharging After Hardship",
+      "Regeneration",
+      "Renewed Purpose",
+      "Restoring Energy",
+      "Revitalization",
+      "Spiritual Renewal",
+      "Starting Anew"
+    ],
+    "Restoration": [
+      "Healing After Destruction",
+      "Rebuilding After Loss",
+      "Recovery of What Was Lost",
+      "Regaining What Was Taken",
+      "Repairing Brokenness",
+      "Restoring Balance",
+      "Restoring Peace",
+      "Restoring Trust"
+    ],
+    "Transformation": [
+      "Becoming Your Best Self",
+      "Breaking Old Habits",
+      "Embracing Evolution",
+      "Inner Change",
+      "Life-Altering Changes",
+      "Personal Growth",
+      "Radical Shifts",
+      "Self-Improvement",
+      "Transformative Awakening"
+    ],
+    "Upliftment": [
+      "Elevating One’s Spirit",
+      "Empowerment Through Support",
+      "Encouragement",
+      "Inspiring Hope in Others",
+      "Lifting the Soul",
+      "Nurturing Resilience",
+      "Rising Above Despair",
+      "Support in Times of Struggle",
+      "Uplifting the Brokenhearted"
+  ]
+},
+"Identity, Society & Belonging": {
+    "Living in Diaspora": [
+      "Longing for Return",
+      "Loss of Homeland",
+      "Rebuilding in Exile",
+      "Separation from Roots",
+      "Struggle for Reconnection"
+    ],
+    "Heritage": [
+      "Ancestral Roots",
+      "Connection to Ancestors",
+      "Cultural Legacy",
+      "Cultural Pride",
+      "Family History",
+      "Honoring the Past",
+      "Preserving Customs",
+      "Traditions Passed Down",
+      "Valuing Ancestry"
+    ],
+    "Identity": [
+      "Belonging to a Group",
+      "Cultural Identity",
+      "Defining Who We Are",
+      "Formation of Self",
+      "Inner Sense of Self",
+      "Personal Understanding",
+      "Quest for Authenticity",
+      "Self-Discovery",
+      "Self-Perception"
+    ],
+    "Legacy": [
+      "Building a Lasting Name",
+      "Contributions to Society",
+      "Creating a Heritage",
+      "Family Legacy",
+      "Generational Influence",
+      "Lasting Impact",
+      "Leaving a Mark",
+      "Passing on Knowledge",
+      "Shaping the Future"
+    ],
+    "National Pride": [
+      "Celebrating National Achievements",
+      "Collective National Identity",
+      "Love for One’s Country",
+      "National Unity",
+      "Patriotism",
+      "Respect for National History",
+      "Shared National Values",
+      "Standing for Country",
+      "Unity in Diversity"
+    ],
+    "Nobility": [
+      "Aristocratic Heritage",
+      "High Moral Standing",
+      "Honor and Dignity",
+      "Leading by Example",
+      "Noble Purpose",
+      "Respectable Lineage",
+      "Sense of Duty",
+      "Social Status",
+      "Upholding Virtue"
+    ],
+    "Obedience": [
+      "Adherence to Authority",
+      "Discipline",
+      "Duty to Community",
+      "Following Traditions",
+      "Loyalty to a Cause",
+      "Respect for Laws and Rules",
+      "Social Conformity",
+      "Submission to Leadership",
+      "Trust in Guidance"
+    ],
+    "Observation": [
+      "Attention to the Environment",
+      "Awareness of Social Dynamics",
+      "Awareness of Social Justice",
+      "Learning from Others",
+      "Observing Cultural Norms",
+      "Personal Reflection in Society",
+      "Recognizing Patterns",
+      "Social Insight",
+      "Understanding Social Roles"
+    ],
+    "Order": [
+      "Following Structure",
+      "Hierarchy in Society",
+      "Maintaining Peace",
+      "Organized Society",
+      "Promoting Stability",
+      "Social Harmony",
+      "Stability Through Rules",
+      "Systematic Functioning",
+      "Unity Through Order"
+    ],
+    "Property": [
+      "Control Over Resources",
+      "Cultural Importance of Land",
+      "Economic Power",
+      "Family Assets",
+      "Material Possessions",
+      "Ownership Rights",
+      "Property as Legacy",
+      "Stewardship of Land",
+      "Wealth and Responsibility"
+    ],
+    "Tradition": [
+      "Collective Practices",
+      "Cultural Practices",
+      "Passing Down Knowledge",
+      "Religious Observances",
+      "Respecting Ancestors",
+      "Rituals and Customs",
+      "Rituals in Society",
+      "Safeguarding Heritage",
+      "Time-Honored Ways"
+    ],
+    "Xenophobia": [
+      "Cultural Separation",
+      "Discrimination Against Immigrants",
+      "Fear of Outsiders",
+      "Intolerance of Foreigners",
+      "Nationalism Over Diversity",
+      "Overcoming Prejudice",
+      "Prejudice",
+      "Social Exclusion",
+      "Struggling with Difference"
+    ]
+  },
+  "Inner Experience & Self-Perception": {
+    "Abandonment": [
+      "Emotional Detachment", "Emotional Loneliness", "Fear of Being Left Behind", "Fear of Rejection",
+      "Feeling Neglected", "Isolation", "Loss of Connection", "Sense of Betrayal", "Yearning for Belonging"
+    ],
+    "Acceptance": [
+      "Acceptance of Others", "Acknowledging One’s Worth", "Embracing Imperfections", "Finding Peace with Reality",
+      "Letting Go of Judgment", "Openness to Change", "Personal Growth through Acceptance", "Self-Acceptance",
+      "Welcoming Life’s Flaws"
+    ],
+    "Accountability": [
+      "Acknowledging Mistakes", "Answerability", "Answering for One's Choices", "Integrity in Actions",
+      "Owning Consequences", "Personal Responsibility", "Taking Ownership", "Transparency", "Upholding Duty"
+    ],
+    "Acknowledgment": [
+      "Affirming One’s Identity", "Awareness of Impact", "Giving Credit Where Due", "Recognition of Efforts",
+      "Recognizing Personal Growth", "Respecting Others' Experiences", "Self-Validation", "Validation of Feelings",
+      "Valuing Contributions"
+    ],
+    "Ambition": [
+      "Aspirations for the Future", "Desire for Success", "Drive to Achieve", "Hunger for Achievement",
+      "Passion for Improvement", "Pursuit of Goals", "Reaching for Greatness", "Vision for Progress",
+      "Yearning for Impact"
+    ],
+    "Ambivalence": [
+      "Doubt About Decisions", "Emotional Push and Pull", "Hesitation", "Inner Conflict", "Mixed Feelings",
+      "Struggling to Choose", "Torn Between Paths", "Uncertainty", "Wavering Resolve"
+    ],
+    "Anger": [
+      "Aggression", "Emotional Outbursts", "Frustration", "Intense Displeasure", "Irritation", "Rage",
+      "Resentment", "Suppressed Fury", "Uncontrolled Temper"
+    ],
+    "Anguish": [
+      "Deep Emotional Pain", "Emotional Distress", "Extreme Discomfort", "Heartache", "Inner Torment",
+      "Soul-Crushing Pain", "Suffering", "Unbearable Grief", "Wrenching Sorrow"
+    ],
+    "Anxiety": [
+      "Fear of the Unknown", "Nervousness", "Overthinking", "Panic", "Restlessness", "Stress",
+      "Tension Over Uncertainty", "Unease", "Worry"
+    ],
+    "Apathy": [
+      "Detached Emotions", "Disengagement", "Emotional Numbness", "Inability to Care", "Indifference",
+      "Lack of Interest", "Loss of Motivation", "Passive Resignation", "Uninspired State"
+    ],
+    "Appearance": [
+      "Body Image", "External Perception", "Looking Good", "Personal Presentation", "Physical Self-Image",
+      "Seeking Validation Through Looks", "Self-Consciousness", "Vanity", "Visual Identity"
+    ],
+    "Aspiration": [
+      "Aiming High", "Desire for Achievement", "Dreams and Goals", "Hope for Growth", "Pursuit of One’s Dreams",
+      "Setting Ambitious Goals", "Striving for Excellence", "Vision for a Better Future", "Yearning for Fulfillment"
+    ],
+    "Assurance": [
+      "Certainty", "Confidence in Decision-Making", "Confidence in One’s Abilities", "Grounded Confidence",
+      "Inner Security", "Positive Self-Talk", "Self-Assurance", "Trust in One’s Judgment", "Unshakable Belief"
+    ],
+    "Bitterness": [
+      "Anger Over Time", "Cynical Outlook", "Emotional Sharpness", "Grudge Holding", "Harsh Emotions",
+      "Lingering Hurt", "Negative Reflection", "Resentment", "Unforgiving Thoughts"
+    ],
+    "Blame": [
+      "Accusations", "Assigning Fault", "Avoiding Responsibility", "Fault-Finding", "Guilt and Shame",
+      "Holding Others Accountable", "Pointing Fingers", "Self-Blame", "Shifting Responsibility"
+    ],
+    "Brokenness": [
+      "Deep Hurt", "Emotional Shatteredness", "Feeling Incomplete", "Fragmented Self", "Inner Ruin",
+      "Loss of Wholeness", "Personal Fractures", "Scattered Spirit", "Wounded Soul"
+    ],
+  
+    "Calm Amid Chaos": [
+      "Emotional Stability in Crisis",
+      "Finding Peace in Turmoil",
+      "Inner Peace During Challenges",
+      "Maintaining Serenity in Stress",
+      "Mindful Presence",
+      "Relaxed Awareness",
+      "Steady Heart",
+      "Staying Grounded",
+      "Tranquility Under Pressure"
+    ],
+    "Clarity": [
+      "Clear Decision-Making",
+      "Clear Understanding",
+      "Decisive Thought Process",
+      "Focused Vision",
+      "Insightful Thinking",
+      "Mental Focus",
+      "Piercing Insight",
+      "Transparency",
+      "Unclouded Perception"
+    ],
+    "Comfort": [
+      "Emotional Ease",
+      "Feeling Safe",
+      "Gentle Relief",
+      "Physical Relaxation",
+      "Reassurance",
+      "Rest and Tranquility",
+      "Solace in Difficult Times",
+      "Support from Others",
+      "Warmth of Security"
+    ],
+    "Confidence": [
+      "Assuredness",
+      "Belief in Abilities",
+      "Bold Self-Belief",
+      "Feeling Capable",
+      "Inner Conviction",
+      "Personal Power",
+      "Self-Esteem",
+      "Self-Respect",
+      "Trust in Oneself"
+    ],
+    "Confusion": [
+      "Bewilderment",
+      "Cognitive Dissonance",
+      "Fog of Mind",
+      "Lack of Clarity",
+      "Lost in Thought",
+      "Mental Disorientation",
+      "Perplexity",
+      "Unclear Direction",
+      "Uncertainty"
+    ],
+    "Courage": [
+      "Boldness in Action",
+      "Bravery in the Face of Fear",
+      "Defiant Spirit",
+      "Fearlessness",
+      "Inner Strength",
+      "Overcoming Fear",
+      "Risk-Taking",
+      "Standing Up for What is Right",
+      "Valor in Adversity"
+    ],
+    "Curiosity": [
+      "Desire for Knowledge",
+      "Inquisitive Nature",
+      "Intellectual Exploration",
+      "Investigative Thinking",
+      "Openness to New Ideas",
+      "Questioning",
+      "Seeking Understanding",
+      "Thirst for Discovery",
+      "Wonderment"
+    ],
+    "Depression": [
+      "Dark Mood",
+      "Emotional Exhaustion",
+      "Feeling Overwhelmed",
+      "Hopelessness",
+      "Isolation",
+      "Loss of Interest",
+      "Low Energy",
+      "Persistent Sadness",
+      "Weight of Despair"
+    ],
+    "Desire": [
+      "Ambition",
+      "Burning Wish",
+      "Craving",
+      "Deep Personal Needs",
+      "Heart’s Calling",
+      "Longing",
+      "Passion for Something",
+      "Wanting Change",
+      "Yearning for Fulfillment"
+    ],
+    "Despair": [
+      "Abyss of Sorrow",
+      "Complete Sadness",
+      "Crushing Defeat",
+      "Emotional Exhaustion",
+      "Feeling Empty",
+      "Feeling Overcome",
+      "Hopelessness",
+      "Loss of Faith",
+      "Without Purpose"
+    ],
+    "Determination": [
+      "Commitment to Action",
+      "Dedication",
+      "Goal-Oriented Drive",
+      "Grit",
+      "Persistence",
+      "Resolve",
+      "Strength to Continue",
+      "Unyielding Will",
+      "Steadfast Pursuit"
+    ],
+    "Dignity": [
+      "Grace Under Pressure",
+      "Holding One's Head High",
+      "Honor",
+      "Inner Pride",
+      "Moral Integrity",
+      "Noble Bearing",
+      "Respectful Presence",
+      "Self-Respect",
+      "Worthiness"
+    ],
+    "Direction": [
+      "Clear Path",
+      "Decision Making",
+      "Focused Journey",
+      "Guided Steps",
+      "Life’s Compass",
+      "Moving Toward a Vision",
+      "Purposeful Action",
+      "Sense of Purpose",
+      "Set Goals"
+    ],
+    "Discernment": [
+      "Ability to Understand Subtle Details",
+      "Evaluating Situations",
+      "Insightful Thinking",
+      "Intuition",
+      "Keen Perception",
+      "Perceptive Clarity",
+      "Sound Reasoning",
+      "Thoughtful Decision-Making",
+      "Wise Judgment"
+    ],
+    "Doubt": [
+      "Fear of Failure",
+      "Hesitation",
+      "Insecurity",
+      "Lack of Certainty",
+      "Lack of Confidence",
+      "Questioning Oneself",
+      "Self-Suspicion",
+      "Unclear Thinking",
+      "Wavering Faith"
+    ],
+    "Effort": [
+      "Action-Oriented Attitude",
+      "Commitment to Goals",
+      "Dedication to Success",
+      "Hard Work",
+      "Mental and Physical Energy",
+      "Personal Investment",
+      "Relentless Task Endurance",
+      "Striving Toward Goals",
+      "Willful Exertion"
+    ],
+    "Emotional Release": [
+      "Cathartic Outpouring",
+      "Crying as Healing",
+      "Emotional Expression",
+      "Forgiving to Heal",
+      "Letting Go of Negative Emotions",
+      "Purging Hurt",
+      "Releasing Tension",
+      "Unburdening the Soul",
+      "Venting Feelings"
+    ],
+    "Emotional Suffering": [
+      "Emotional Weight",
+      "Grief",
+      "Heartache",
+      "Internal Conflict",
+      "Loss",
+      "Painful Emotions",
+      "Silent Agony",
+      "Tormented Heart",
+      "Unhealed Wounds"
+    ],
+    "Empowerment": [
+      "Claiming One's Voice",
+      "Confidence Building",
+      "Control Over Life",
+      "Feeling Capable",
+      "Inner Power",
+      "Personal Strength",
+      "Rising Authority",
+      "Self-Empowerment",
+      "Self-Improvement"
+    ],
+    "Encouragement": [
+      "Building Hope",
+      "Fostering Belief",
+      "Inspirational Acts",
+      "Lifting Others Up",
+      "Motivational Words",
+      "Offering Support",
+      "Positive Affirmation",
+      "Strengthening Confidence",
+      "Uplifting Words"
+    ],
+    "Envy": [
+      "Bitter Envy",
+      "Comparing Oneself to Others",
+      "Covetous Thoughts",
+      "Desire for What Others Have",
+      "Feeling Left Behind",
+      "Jealousy of Others’ Success",
+      "Lack of Contentment",
+      "Negative Emotions Toward Another",
+      "Resentment"
+    ],
+    "Facing Challenges": [
+      "Battling Hardships",
+      "Building Resilience",
+      "Confronting Adversity",
+      "Conquering Difficulties",
+      "Determining a Path Forward",
+      "Overcoming Obstacles",
+      "Personal Struggles",
+      "Rising to the Occasion",
+      "Tackling Trials"
+    ],
+    "Failure": [
+      "Experiencing Setbacks",
+      "Falling Short",
+      "Feeling Defeated",
+      "Learning from Defeat",
+      "Making Mistakes",
+      "Not Achieving Goals",
+      "Overcoming Disappointment",
+      "Struggles with Success",
+      "Stumbling Blocks"
+    ],
+    "Fear": [
+      "Anxiety Over Uncertainty",
+      "Apprehension",
+      "Dread",
+      "Fearing the Unknown",
+      "Panic",
+      "Paralyzing Worry",
+      "Phobias",
+      "Shadow of Fear",
+      "Trembling Uncertainty"
+    ],
+    "Finding Inner Peace": [
+      "Acceptance of One’s Emotions",
+      "Emotional Balance",
+      "Harmony Within",
+      "Letting Go of Negative Thoughts",
+      "Meditation",
+      "Quiet Serenity",
+      "Restful Spirit",
+      "Self-Soothing",
+      "Stillness of Mind"
+    ],
+    "Focus": [
+      "Commitment to Goals",
+      "Concentrated Attention",
+      "Directed Energy",
+      "Intentional Action",
+      "Laser-Sharp Attention",
+      "Mental Clarity",
+      "Mindful Presence",
+      "Purposeful Concentration",
+      "Staying on Track"
+    ],
+    "Forgiveness": [
+      "Accepting Apologies",
+      "Healing Through Compassion",
+      "Letting Go of Grudges",
+      "Merciful Release",
+      "Offering Grace",
+      "Pardon for Offenses",
+      "Releasing Resentment",
+      "Restoring Harmony",
+      "Self-Forgiveness"
+    ],
+  
+"Guilt": [
+    "Burden of Conscience", "Emotional Distress", "Feeling Responsible for Harm", "Heavy Heart", "Regret",
+    "Remorse", "Repentance", "Self-Blame", "Shame"
+  ],
+  "Happiness": [
+  "Dependent on Others",
+  "Emotional Exhaustion", "Feeling Powerless", "Inability to Influence Outcome", "Lack of Control",
+    "Lost Agency", "Overwhelmed by Circumstances", "Sinking Desperation", "Vulnerability"
+],
+  "Helplessness": [
+    "Dependent on Others", "Emotional Exhaustion", "Feeling Powerless", "Inability to Influence Outcome",
+    "Lack of Control", "Lost Agency", "Overwhelmed by Circumstances", "Sinking Desperation", "Vulnerability"
+  ],
+  "Hope": [
+    "Aspiration for Growth", "Beacon of Possibility", "Belief in the Future", "Expectation of Positive Change",
+    "Faith in Better Outcomes", "Light in Darkness", "Optimism", "Sustaining Faith", "Trust in Resolution"
+  ],
+  "Hopelessness": [
+    "Bleak Outlook", "Despair", "Emotional Numbness", "Feeling of Being Trapped", "Lack of Optimism",
+    "Loss of Motivation", "Pessimism", "Powerlessness", "Void of Hope"
+  ],
+  "Humility": [
+    "Acknowledging Limitations", "Avoiding Arrogance", "Gentle Demeanor", "Humble Spirit", "Modesty",
+    "Quiet Strength", "Respect for Others", "Self-Awareness", "Unpretentious Nature"
+  ],
+  "Identity": [
+    "Authentic Self", "Cultural and Social Identity", "Defining One’s Place", "Evolving Identity", "Inner Reflection",
+    "Inner Sense of Who We Are", "Personal Self-Understanding", "Self-Expression", "Sense of Belonging"
+  ],
+  "Illness": [
+    "Battling Weakness", "Chronic Pain", "Coping with Health Challenges", "Disease and Recovery",
+    "Emotional Toll of Sickness", "Enduring Affliction", "Health Struggles", "Mental Illness", "Physical Suffering"
+  ],
+  "Impulsiveness": [
+    "Acting Without Thinking", "Impulsive Actions", "Instant Gratification", "Lack of Self-Control", "Rash Choices",
+    "Reckless Moments", "Spontaneous Decisions", "Sudden Reactions", "Unplanned Behavior"
+  ],
+  "Inner Strength": [
+    "Courage in Adversity", "Emotional Fortitude", "Endurance", "Mental Toughness", "Perseverance in Hardship",
+    "Resilience", "Steadfast Spirit", "Unbreakable Core", "Willpower"
+  ],
+  "Inspiration": [
+    "Catalyst for Change", "Creative Spark", "Guidance to Improve", "Igniting Passion", "Influence of Others",
+    "Motivation to Act", "Sparks of Innovation", "Uplifting Force", "Visionary Drive"
+  ],
+  "Integrity": [
+    "Adherence to Ethical Principles", "Consistency of Actions and Values", "Ethical Behavior",
+    "Honesty and Truthfulness", "Moral Uprightness", "Personal Honesty", "Principled Living",
+    "Standing by One’s Principles", "Upright Character"
+  ],
+  "Internal Conflict": [
+    "Battling Within", "Clashing Desires", "Divided Loyalty", "Emotional Dissonance", "Inner Struggle",
+    "Moral Dilemma", "Struggling with Decisions", "Torn Between Choices", "Unresolved Feelings"
+  ],
+  "Intuition": [
+    "Deep-Seated Wisdom", "Gut Feelings", "Inner Knowing", "Instinctive Knowledge", "Non-Rational Insight",
+    "Spontaneous Understanding", "Subtle Perception", "Trusting One’s Instincts", "Unspoken Insight"
+  ],
+  "Joy": [
+    "Contentment", "Delight in Life", "Exhilaration", "Happiness from Within", "Lightheartedness",
+    "Positive Emotions", "Pure Happiness", "Radiant Bliss", "Uplifting Elation"
+  ],
+  "Loneliness": [
+    "Emotional Isolation", "Empty Heart", "Feeling Alone in a Crowd", "Isolation from Others",
+    "Lack of Connection", "Longing for Companionship", "Personal Disconnect", "Quiet Solitude", "Social Alienation"
+  ],
+  "Loss": [
+    "Change in Circumstance", "Death", "Experiencing Void", "Fading Bonds", "Grief from Losing Someone",
+    "Irreplaceable Absence", "Loss of Purpose", "Mourning", "Separation"
+  ],
+  "Love": [
+    "Boundless Affection", "Compassion", "Deep Affection", "Emotional Connection", "Heartfelt Devotion",
+    "Love for Others", "Romantic Love", "Self-Love", "Unconditional Caring"
+  ],
+  "Making Amends": [
+    "Apologizing for Wrongdoing", "Atoning Actions", "Correcting Mistakes", "Healing Bonds", "Rebuilding Trust",
+    "Reconciliation", "Restoring Relationships", "Righting Past Mistakes", "Seeking Forgiveness"
+  ],
+  "Maturity": [
+    "Accepting Life’s Realities", "Balanced Judgment", "Emotional Growth", "Growth Beyond Childhood",
+    "Handling Responsibility", "Seasoned Perspective", "Self-Control", "Understanding of Life’s Complexities", "Wisdom"
+  ],
+  "Meditation": [
+    "Calm Focus", "Centered Breathing", "Emotional Relaxation", "Inner Reflection", "Mental Clarity",
+    "Mindfulness", "Peaceful Mind", "Quiet Contemplation", "Spiritual Practice"
+  ],
+  "Mental Exhaustion": [
+    "Burnout", "Cognitive Fatigue", "Drained Mind", "Exhaustion from Decision-Making", "Intellectual Overload",
+    "Lack of Mental Energy", "Overthinking", "Stress-Induced Fatigue", "Worn-Out Thoughts"
+  ],
+  "Mourning a Loss": [
+    "Coping with Death", "Emotional Healing", "Grieving for the Departed", "Holding onto Memories",
+    "Lamenting Absence", "Moving Through the Stages of Grief", "Processing Grief", "Saying Goodbye",
+    "Tender Remembrance"
+  ],
+ "Navigating Change": [
+    "Adapting to New Circumstances",
+    "Embracing Transformation",
+    "Facing the Unknown",
+    "Flexibility and Adjustment",
+    "Overcoming Resistance to Change",
+    "Personal Growth through Change"
+],
+  "Navigating Loss and Rebuilding": [
+    "Finding Hope After Suffering",
+    "Healing from Trauma",
+    "Moving Forward after Grief",
+    "Rebuilding After Loss",
+    "Reclaiming One’s Life",
+    "Recovering from Heartache",
+    "Renewed Foundations",
+    "Restoring Purpose After Loss",
+    "Rising from Ruins"
+  ],
+  "Optimism": [
+    "Bright View of Life",
+    "Cheerful Attitude",
+    "Confident Expectation",
+    "Expectation of Good Things",
+    "Faith in Better Outcomes",
+    "Hope for the Future",
+    "Looking for the Silver Lining",
+    "Positive Outlook",
+    "Upbeat Spirit"
+  ],
+  "Pain": [
+    "Ache and Longing",
+    "Agony",
+    "Emotional Suffering",
+    "Heartache",
+    "Lingering Hurt",
+    "Mental Strain",
+    "Physical Discomfort",
+    "Physical Injury",
+    "Raw Anguish"
+  ],
+  "Patience": [
+    "Calm Acceptance",
+    "Delayed Gratification",
+    "Endurance",
+    "Quiet Endurance",
+    "Resilience During Waiting",
+    "Steady Composure",
+    "Tempered Reactions",
+    "Tolerance for Delay",
+    "Waiting with Grace"
+  ],
+  "Peace": [
+    "Acceptance and Serenity",
+    "Conflict-Free Living",
+    "Emotional Calm",
+    "Inner Tranquility",
+    "Peace of Mind",
+    "Resolution of Tension",
+    "Restful Harmony",
+    "Serene Balance",
+    "Social Harmony"
+  ],
+  "Perseverance": [
+    "Consistency in Pursuit of Goals",
+    "Continuation Despite Difficulty",
+    "Endurance through Hardship",
+    "Grit and Tenacity",
+    "Overcoming Hurdles",
+    "Refusing to Give Up",
+    "Relentless Drive",
+    "Steady Effort",
+    "Unwavering Resolve"
+  ],
+  "Persistence": [
+    "Continued Effort",
+    "Determination",
+    "Doggedness",
+    "Not Giving Up",
+    "Relentless Commitment",
+    "Resilience in Struggle",
+    "Steadfast Pursuit",
+    "Sustained Action",
+    "Unyielding Drive"
+  ],
+  "Personal Growth": [
+    "Changing for the Better",
+    "Continuous Development",
+    "Deepening Self",
+    "Evolution of Character",
+    "Expanding Horizons",
+    "Learning from Experiences",
+    "Maturing as a Person",
+    "Reaching Full Potential",
+    "Self-Improvement"
+  ],
+  "Reflection": [
+    "Assessing Progress",
+    "Contemplation",
+    "Deep Contemplation",
+    "Examining One’s Thoughts",
+    "Introspection",
+    "Learning from Experience",
+    "Looking Back to Move Forward",
+    "Self-Analysis",
+    "Thoughtful Review"
+  ],
+  "Regret": [
+    "Desire for Reversal",
+    "Emotional Wounding",
+    "Feeling Sorry for Past Actions",
+    "Loss of Opportunities",
+    "Painful Hindsight",
+    "Sorrowful Remorse",
+    "Unfinished Business",
+    "Wish for a Different Outcome",
+    "Wishful Thinking"
+  ],
+  "Rejection": [
+    "Being Dismissed",
+    "Cold Exclusion",
+    "Denied Acceptance",
+    "Feeling Unwanted",
+    "Loss of Opportunity",
+    "Rebuffed",
+    "Rejected Affection",
+    "Social Isolation",
+    "Stinging Refusal"
+  ],
+  "Remembrance": [
+    "Celebrating Life’s Moments",
+    "Cherishing Memories",
+    "Historical Reflection",
+    "Honoring the Past",
+    "Nostalgic Reverie",
+    "Reflecting on Old Experiences",
+    "Remembering Loved Ones",
+    "Sacred Recollection",
+    "Tribute to the Departed"
+  ],
+  "Renewal": [
+    "Fresh Dawn",
+    "New Beginnings",
+    "Overcoming Old Limitations",
+    "Rebirth",
+    "Recreating One’s Life",
+    "Regeneration of Energy",
+    "Rejuvenation",
+    "Revitalized Spirit",
+    "Starting Fresh"
+  ],
+  "Resilience": [
+    "Ability to Bounce Back",
+    "Buoyant Recovery",
+    "Endurance",
+    "Mental Fortitude",
+    "Overcoming Life's Challenges",
+    "Recovery from Setbacks",
+    "Strength in Adversity",
+    "Toughness Through Hardships",
+    "Unbreakable Will"
+  ],
+  "Resourcefulness": [
+    "Adaptability",
+    "Clever Solutions",
+    "Ingenuity",
+    "Innovative Thinking",
+    "Making Do with What’s Available",
+    "Nimble Thinking",
+    "Practical Creativity",
+    "Problem-Solving Skills",
+    "Self-Sufficiency"
+  ],
+  "Sadness": [
+    "Emotional Despair",
+    "Emotional Pain",
+    "Feeling Blue",
+    "Grief",
+    "Heartache",
+    "Heavy Heart",
+    "Low Spirits",
+    "Melancholy",
+    "Quiet Sorrow"
+  ],
+  "Self-Esteem": [
+    "Confidence in Oneself",
+    "Feeling Good About Who You Are",
+    "Healthy Pride",
+    "Inner Confidence",
+    "Positive Self-Image",
+    "Proud Acceptance",
+    "Self-Respect",
+    "Self-Worth",
+    "Value of One's Self"
+  ],
+  "Self-Reflection": [
+    "Analyzing One's Life",
+    "Contemplating One’s Actions",
+    "Deep Contemplation",
+    "Gaining Insight",
+    "Introspection",
+    "Self-Evaluation",
+    "Soul-Searching",
+    "Thoughtful Review",
+    "Understanding Personal Motivations"
+  ],
+  "Shame": [
+    "Emotional Embarrassment",
+    "Feeling Unworthy",
+    "Hidden Guilt",
+    "Loss of Honor",
+    "Mortified Spirit",
+    "Negative Self-Perception",
+    "Regret for Past Actions",
+    "Self-Judgment",
+    "Social Disgrace"
+  ],
+  "Solitude": [
+    "Being Alone",
+    "Enjoyment of One’s Own Company",
+    "Inner Peace in Isolation",
+    "Quiet Solitude",
+    "Quiet Time",
+    "Reflective Solace",
+    "Seeking Quietude",
+    "Self-Contained Happiness",
+    "Separation from Society"
+  ],
+  "Sorrow": [
+    "Disappointment",
+    "Emotional Despair",
+    "Grief and Loss",
+    "Heartache",
+    "Lingering Melancholy",
+    "Mourning",
+    "Personal Heartbreak",
+    "Profound Sadness",
+    "Tender Grief"
+  ],
+  "Strength": [
+    "Ability to Overcome Challenges",
+    "Courage in the Face of Adversity",
+    "Endurance",
+    "Force of Will",
+    "Inner Might",
+    "Mental Toughness",
+    "Physical and Emotional Power",
+    "Resilience",
+    "Steadfast Power"
+  ],
+  "Struggle": [
+    "Challenging Circumstances",
+    "Enduring Difficulty",
+    "Facing Hardship",
+    "Fighting for Something",
+    "Inner Turmoil",
+    "Persevering Through Adversity",
+    "Personal Battle",
+    "Relentless Fight",
+    "Uphill Battle"
+  ],
+  "Transformation": [
+    "Evolutionary Leap",
+    "Growth and Development",
+    "Metamorphosis",
+    "Moving Beyond Limits",
+    "Personal Change",
+    "Radical Shifts",
+    "Rebirth of Identity",
+    "Renewal of Purpose",
+    "Transcendent Shift"
+  ],
+  "Vulnerability": [
+    "Emotional Exposure",
+    "Exposed Heart",
+    "Fragile Openness",
+    "Openness to Others",
+    "Rawness of Self",
+    "Risking Being Hurt",
+    "Sensitivity",
+    "Transparency",
+    "Weakness"
+  ],
+  "Waiting": [
+    "A Pause in Action",
+    "Expectation of the Future",
+    "Holding Out Hope",
+    "Hopeful Delay",
+    "Lingering",
+    "Patience in Anticipation",
+    "Quiet Expectancy",
+    "Suspended Action",
+    "Time of Transition"
+  ],
+  "Weariness": [
+    "Drained Vitality",
+    "Emotional Burnout",
+    "Fatigue",
+    "Lack of Energy",
+    "Mental Tiredness",
+    "Need for Rest",
+    "Physical Exhaustion",
+    "Strain from Constant Effort",
+    "Worn-Down Spirit"
+  ],
+  "Wonder": [
+    "Amazement",
+    "Appreciation for the Unknown",
+    "Awe",
+    "Childlike Awe",
+    "Curiosity",
+    "Enchanted Gaze",
+    "Inquisitive Mind",
+    "Marveling at Life",
+    "Sense of Discovery"
+  ],
+  "Yearning": [
+    "Aching Desire",
+    "Deep Want or Need",
+    "Desire for Change",
+    "Heartfelt Aspiration",
+    "Longing for Something",
+    "Passionate Craving",
+    "Soulful Longing",
+    "Strong Desire",
+    "Unfulfilled Wish"
+  ],
+  "Youth": [
+    "Boundless Curiosity",
+    "Energy",
+    "Exploration",
+    "Fresh Perspective",
+    "Idealism",
+    "Innocence",
+    "New Beginnings",
+    "Potential",
+    "Vitality"
+  ]
+},
+"Moral & Ethical Complexity": {
+    "Arrogance": [
+      "Conceit", "Grandiosity", "Hubris", "Narcissism", "Overconfidence",
+      "Prideful Behavior", "Self-Centeredness", "Self-Importance", "Superiority"
+    ],
+    "Boundaries": [
+      "Boundaries in Relationships", "Emotional Boundaries", "Enabling Behavior",
+      "Healthy Boundaries", "Personal Boundaries", "Psychological Boundaries",
+      "Respecting Boundaries", "Setting Limits", "Violating Boundaries"
+    ],
+    "Charity": [
+      "Acts of Kindness", "Altruism", "Community Support", "Compassionate Giving",
+      "Donating Time/Resources", "Generosity", "Philanthropy", "Selflessness",
+      "Tzedakah", "Volunteering"
+    ],
+    "Choice": [
+      "Choosing between Right and Wrong", "Consequentialism", "Decision-Making",
+      "Ethical Choices", "Free Will", "Life Choices", "Moral Dilemmas",
+      "Personal Responsibility", "Sacrifice", "The Cost of Choices"
+    ],
+    "Consequences": [
+      "Accountability", "Cause and Effect", "Guilt", "Karma", "Long-Term Impact",
+      "Punishment", "Remorse", "Repercussions", "Reward", "Social Consequences"
+    ],
+    "Corruption": [
+      "Abuse of Power", "Bribery", "Corporate Corruption", "Embezzlement", "Fraud",
+      "Moral Corruption", "Nepotism", "Political Corruption", "Systemic Corruption",
+      "Unethical Practices"
+    ],
+    "Deception": [
+      "Betrayal", "Cheating", "Concealment", "Disguised Intentions", "False Pretenses",
+      "Fraud", "Gaslighting", "Lies", "Manipulation", "White Lies"
+    ],
+    "Decision-Making": [
+      "Consequentialism", "Cost-Benefit Analysis", "Emotional Decisions",
+      "Ethical Decision-Making", "Impulsive Choices", "Pressure and Influence",
+      "Rational Decisions", "Risk Management", "Strategic Thinking", "Value-Based Decisions"
+    ],
+    "Discipline": [
+      "Accountability", "Consistency", "Delayed Gratification", "Ethical Discipline",
+      "Habit Formation", "Internal Motivation", "Mental Toughness", "Personal Growth",
+      "Responsibility", "Self-Control"
+    ],
+    "Disobedience": [
+      "Breaking Rules", "Civil Disobedience", "Defiance", "Lawlessness", "Protest",
+      "Rebellion", "Refusal to Conform", "Rejection of Tradition", "Resistance to Authority",
+      "Unconventional Choices"
+    ],
+    "Division": [
+      "Class Division", "Cultural Division", "Economic Inequality", "Gender Division",
+      "Identity Politics", "Political Division", "Racial Division", "Social Division",
+      "Social Segregation", "Tribalism"
+    ],
+    "Ethics": [
+      "Business Ethics", "Codes of Conduct", "Consequentialism", "Deontological Ethics",
+      "Ethical Theories", "Medical Ethics", "Moral Philosophy", "Professional Ethics",
+      "Relativism", "Virtue Ethics"
+    ],
+    "Forgiveness": [
+      "Empathy and Forgiveness", "Forgiving Others", "Guilt and Forgiveness",
+      "Healing After Conflict", "Letting Go of Grudges", "Reconciliation",
+      "Redemptive Forgiveness", "Restorative Justice", "Self-Forgiveness",
+      "Unconditional Forgiveness"
+    ],
+    "Honor": [
+      "Chivalry", "Duty", "Integrity", "Moral Courage", "Nobility", "Personal Honor",
+      "Public Honor", "Reputation", "Respect", "Virtue"
+    ],
+    "Honesty": [
+      "Authenticity", "Brutal Honesty", "Integrity", "Integrity in Speech", "Openness",
+      "Sincerity", "Telling the Truth", "Transparency", "Truthfulness", "Trustworthiness"
+    ],
+    "Humiliation": [
+      "Degradation", "Disgrace", "Embarrassment", "Invalidation", "Loss of Dignity",
+      "Public Scorn", "Rejection", "Ridicule", "Shame", "Social Exclusion"
+    ],
+    "Immorality": [
+      "Depravity", "Ethical Lapses", "Injustice", "Lack of Conscience", "Moral Decay",
+      "Self-Destruction", "Sinfulness", "Unethical Behavior", "Vice", "Wickedness"
+    ],
+    "Justice": [
+      "Distributive Justice", "Equality", "Fairness", "Human Rights", "Legal Justice",
+      "Moral Justice", "Natural Justice", "Restorative Justice", "Retribution",
+      "Social Justice"
+    ],
+    "Kindness": [
+      "Altruism", "Caring", "Charity", "Compassion", "Consideration", "Empathy",
+      "Generosity", "Goodwill", "Service", "Warmth"
+    ],
+    "Mercy": [
+      "Benevolence", "Clemency", "Compassionate Forgiveness", "Compassionate Justice",
+      "Forbearance", "Grace", "Humane Treatment", "Leniency", "Pity", "Relief"
+    ],
+    "Morality": [
+      "Character and Integrity", "Ethical Principles", "Good vs Evil", "Moral Absolutism",
+      "Moral Dilemmas", "Moral Relativism", "Moral Systems", "Right vs Wrong",
+      "Universal Morality", "Virtue Ethics"
+    ],
+    "Obedience": [
+      "Blind Obedience", "Compliance", "Conformity", "Duty", "Following Authority",
+      "Hierarchical Structures", "Obedience to Laws", "Rule-Following", "Social Norms",
+      "Submission"
+    ],
+    "Obligation": [
+      "Charity and Aid", "Civic Duty", "Duty to Others", "Ethical Responsibilities",
+      "Legal Obligation", "Moral Duty", "Obligatory Acts", "Professional Duty",
+      "Social Responsibility", "Voluntary Commitment"
+    ],
+    "Oppression": [
+      "Disenfranchisement", "Economic Oppression", "Exclusion", "Human Rights Violations",
+      "Marginalization", "Political Oppression", "Power Imbalance", "Social Injustice",
+      "Systemic Inequality", "Tyranny"
+    ],
+    "Penitence": [
+      "Apology", "Atonement", "Emotional Healing", "Reconciliation", "Redemption",
+      "Regret", "Remorse", "Repentance", "Seeking Forgiveness", "Sorrow for Misdeeds"
+    ]
+  
+},
+"Responsibility, Vocation & Contribution": {
+  "Action": [
+    "Accountability in Action",
+    "Commitment to Change",
+    "Effective Action",
+    "Goal-Oriented Tasks",
+    "Moving Toward Goals",
+    "Proactive Behavior",
+    "Purposeful Action",
+    "Quick Decision-Making",
+    "Taking Initiative",
+    "Urgency"
+  ],
+  "Building Relationships": [
+    "Collaboration",
+    "Communication",
+    "Conflict Resolution",
+    "Emotional Intelligence",
+    "Empathy",
+    "Interpersonal Skills",
+    "Networking",
+    "Relationship Management",
+    "Relationship Maintenance",
+    "Trust-Building"
+  ],
+  "Commitment": [
+    "Dedication to Purpose",
+    "Devotion",
+    "Follow-Through",
+    "Long-Term Engagement",
+    "Loyalty",
+    "Perseverance in the Face of Adversity",
+    "Personal Sacrifice",
+    "Responsibility",
+    "Stick-to-itiveness",
+    "Unwavering Determination"
+  ],
+  "Delegation": [
+    "Clear Communication",
+    "Collaborative Decision-Making",
+    "Distributing Tasks",
+    "Efficient Workflow",
+    "Empowerment",
+    "Sharing Responsibility",
+    "Supervisory Role",
+    "Task Management",
+    "Team Leadership",
+    "Trust in Others"
+  ],
+  "Dedication": [
+    "Commitment to Excellence",
+    "Consistency",
+    "Focusing on Goals",
+    "Hard Work",
+    "Loyalty to Mission",
+    "Passion for the Task",
+    "Perseverance",
+    "Prioritizing Long-Term Outcomes",
+    "Pursuing Mastery",
+    "Sacrificing for a Greater Cause"
+  ],
+  "Diligence": [
+    "Attention to Detail",
+    "Consistency in Effort",
+    "Excellence in Execution",
+    "Hard Work",
+    "Persistence",
+    "Quality Control",
+    "Reliability",
+    "Steady Progress",
+    "Systematic Approach",
+    "Thoroughness"
+  ],
+  "Endurance": [
+    "Ability to Withstand Hardship",
+    "Long-Term Focus",
+    "Mental Toughness",
+    "Overcoming Fatigue",
+    "Perseverance Through Difficulty",
+    "Physical Endurance",
+    "Pushing Beyond Limits",
+    "Resilience",
+    "Stamina",
+    "Sustained Effort"
+  ],
+  "Establishing a Lasting Impact": [
+    "Building Foundations for Future Generations",
+    "Creating Long-Term Change",
+    "Influence Through Actions",
+    "Leaving a Mark",
+    "Legacy Building",
+    "Making a Difference",
+    "Mentorship and Teaching",
+    "Positive Social Change",
+    "Sustainable Contributions",
+    "Visionary Leadership"
+  ],
+  "Labor": [
+    "Employee Engagement",
+    "Job Fulfillment",
+    "Manual Work",
+    "Occupational Responsibilities",
+    "Physical Work",
+    "Professional Tasks",
+    "Service Industry Jobs",
+    "Skilled Labor",
+    "Vocational Training",
+    "Work Ethics"
+  ],
+  "Leadership": [
+    "Decision-Making",
+    "Effective Communication",
+    "Ethical Leadership",
+    "Leading by Example",
+    "Motivating Others",
+    "Organizational Leadership",
+    "Problem Solving",
+    "Strategic Thinking",
+    "Team Building",
+    "Visionary Leadership"
+  ],
+  "Laying the Foundation for Others": [
+    "Building Infrastructure",
+    "Creating Opportunities",
+    "Creating Pathways",
+    "Establishing Systems",
+    "Mentoring",
+    "Passing on Knowledge",
+    "Preparing the Next Generation",
+    "Providing Resources",
+    "Supporting Success",
+    "Teaching and Training"
+  ],
+  "Making Amends": [
+    "Accepting Responsibility for Mistakes",
+    "Apology",
+    "Atonement",
+    "Healing Past Wrongs",
+    "Making Right",
+    "Personal Growth through Accountability",
+    "Repairing Relationships",
+    "Restitution",
+    "Restoring Trust",
+    "Seeking Forgiveness"
+  ],
+  "Maintaining Authority": [
+    "Accountability as a Leader",
+    "Assertiveness",
+    "Authority and Power Dynamics",
+    "Decision Making Under Pressure",
+    "Enforcing Rules",
+    "Ensuring Fairness",
+    "Inspiring Respect",
+    "Leadership in Crisis",
+    "Managing Conflict",
+    "Respecting Boundaries"
+  ],
+  "Offering": [
+    "Contributing Ideas",
+    "Donating Time",
+    "Giving Back",
+    "Making Time for Others",
+    "Offering Help",
+    "Open-Handedness",
+    "Philanthropy",
+    "Selfless Giving",
+    "Sharing Resources",
+    "Volunteering"
+  ],
+  "Opportunity": [
+    "Access to Resources",
+    "Career Advancement",
+    "Entrepreneurship",
+    "Equal Access to Opportunities",
+    "Expanding Horizons",
+    "Growth Potential",
+    "New Beginnings",
+    "Pathways to Success",
+    "Providing Opportunities to Others",
+    "Seizing Life Opportunities"
+  ],
+  "Providing to Others": [
+    "Assistance to Those in Need",
+    "Charitable Contributions",
+    "Creating Access",
+    "Feeding the Hungry",
+    "Financial Support",
+    "Giving Knowledge",
+    "Offering Emotional Support",
+    "Providing Education",
+    "Providing Shelter",
+    "Providing Solutions"
+  ],
+  "Service": [
+    "Acts of Kindness",
+    "Community Engagement",
+    "Healthcare Service",
+    "Humanitarian Efforts",
+    "Professional Service",
+    "Public Service",
+    "Serving the Public Good",
+    "Social Responsibility",
+    "Supportive Services",
+    "Volunteerism"
+  ],
+  "Stewardship": [
+    "Care for Future Generations",
+    "Community Care",
+    "Environmental Responsibility",
+    "Ethical Resource Use",
+    "Financial Stewardship",
+    "Organizational Stewardship",
+    "Resource Management",
+    "Responsible Consumption",
+    "Sustainable Growth",
+    "Sustainable Practices"
+  ],
+  "Willingness to Contribute": [
+    "Acts of Generosity",
+    "Altruistic Engagement",
+    "Commitment to Social Good",
+    "Community Support",
+    "Embracing Collective Responsibility",
+    "Giving Without Expectation",
+    "Initiative to Serve",
+    "Leadership in Community",
+    "Selflessness",
+    "Volunteerism"
+  ],
+  "Work": [
+    "Balancing Work and Life",
+    "Career Development",
+    "Job Motivation",
+    "Job Satisfaction",
+    "Labor Force Participation",
+    "Meaningful Work",
+    "Professional Growth",
+    "Vocational Purpose",
+    "Work Ethic",
+    "Work-Life Integration"
+  ]
+},
+"Spiritual & Philosophical States": {
+  "Atonement": [
+    "Confession", "Divine Mercy", "Humility in Seeking Forgiveness", "Personal Redemption",
+    "Reconciliation with God", "Repentance", "Restitution for Sins", "Ritual Cleansing",
+    "Seeking Forgiveness", "Spiritual Renewal"
+  ],
+"Awe": [
+  "Awe of Creation", "Divine Presence", "Emotional Power", "Experiencing the Divine"
+],
+"Belief": [
+  "Belief in Providence", "Doctrine and Creed", "Dogma", "Faith in the Divine",
+  "Internal Faith", "Personal Convictions", "Religious Faith", "Spiritual Beliefs"
+],
+"Bestowing Goodness": [
+  "Blessing as a Ritual", "Blessings for Others", "Divine Favor",
+  "Gratitude for Gifts", "Joyous Acknowledgment of Gifts", "Prayer for Blessings",
+  "Receiving Divine Grace", "Recognition of Divine Gifts", "Sacred Blessing"
+],
+  "Covenant": [
+    "Binding Oaths", "Divine Promise", "Divine-Blessed Relationship", "Faithful Commitment",
+    "God's Covenant with Humanity", "Law and Grace", "Promise Keeping",
+    "Relationship with the Divine", "Sacred Agreements", "Torah Covenant"
+  ],
+  "Death": [
+    "Afterlife Beliefs", "Death and Resurrection", "Eternal Life", "Final Passage",
+    "Legacy", "Mortality", "Passing Away", "Spiritual Continuity", "The End of Life",
+    "Transition to the Divine"
+  ],
+  "Devotion": [
+    "Acts of Love", "Constant Worship", "Deep Affection for God", "Faithful Service",
+    "Love for the Divine", "Offering Time to God", "Piety", "Prayerful Commitment",
+    "Religious Dedication", "Spiritual Focus"
+  ],
+  "Dialogue with God": [
+    "Connecting with God", "Divine Communication", "Divine Counsel", "Listening to God’s Voice",
+    "Meditation with God", "Prayer", "Sacred Conversation", "Seeking Guidance",
+    "Spiritual Reflection", "Talking to the Divine"
+  ],
+  "Divine Action": [
+    "Divine Healing", "Divine Intervention", "God’s Judgment", "God’s Will", "Miracles",
+    "Providence", "Revelation", "Sacred Deeds", "Signs and Wonders",
+    "Spiritual Forces at Work"
+  ],
+  "Divinity": [
+    "Divine Essence", "Divine Presence", "God as Creator", "Godhood", "Holiness",
+    "Sacred Nature", "The Divine Nature of Reality", "The Eternal", "Transcendence",
+    "Understanding the Divine"
+  ],
+  "Exile": [
+    "Alienation", "Distance from God", "Divine Absence", "Displacement from Sacred Land",
+    "Loss of Connection", "Physical Displacement", "Spiritual Longing",
+    "Spiritual Separation", "Suffering and Exile", "Yearning for Return"
+  ],
+  "Existence": [
+    "Experiencing Life’s Purpose", "Human Condition", "Living with Purpose",
+    "Philosophical Inquiry", "Purpose in Life", "The Human Soul", "The Meaning of Life",
+    "The Nature of Being", "The Search for Meaning", "Transience of Life"
+  ],
+  "Faith": [
+    "Assurance in the Divine", "Believing without Seeing", "Confidence in Divine Will",
+    "Faith as the Foundation", "Firm Belief in Redemption", "Hope in the Divine Plan",
+    "Religious Belief", "Spiritual Beliefs", "Trust in God", "Unseen Belief"
+  ],
+  "Forgiveness": [
+    "Divine Mercy", "Extending Grace to Others", "Forgiving Oneself",
+    "Healing Past Hurts", "Letting Go of Wrongs", "Pardon from God",
+    "Personal Healing Through Forgiveness", "Reconciliation with Others",
+    "Restoring Relationships", "Seeking Reconciliation"
+  ],
+  "Grace": [
+    "Compassion", "Divine Favor", "Grace in Prayer", "Humble Acceptance of Grace",
+    "Lovingkindness", "Redemption Through Grace", "Spiritual Mercy", "The Gift of Salvation",
+    "Unmerited Blessing"
+  ],
+  "Gratitude": [
+    "A Grateful Heart", "Acknowledging God’s Gifts", "Appreciation for Blessings",
+    "Cultivating Gratitude", "Expressing Thanks", "Living with Thanks", "Praise for Blessings",
+    "Recognition of Divine Favor", "Thankfulness", "Thankfulness in Prayer"
+  ],
+  "Heritage": [
+    "Ancestral Traditions", "Cultural Traditions", "Family Legacy", "Honoring Ancestors",
+    "Passing Down Beliefs", "Preserving Faith History", "Reverence for the Past",
+    "Roots in Faith", "Spiritual Lineage", "Teaching Sacred History"
+  ],
+  "Holiness": [
+    "Divine Presence", "Divine Purity", "Holiness in Action", "Living a Holy Life",
+    "Pursuing Purity", "Reverence for the Divine", "Sacred Living", "Sacredness",
+    "Sanctification", "Spiritual Cleansing"
+  ],
+  "Hope": [
+    "Belief in New Beginnings", "Divine Promise of Redemption", "Expectation of Good",
+    "Faith in the Future", "Light in Darkness", "Optimism through Faith",
+    "Overcoming Despair", "Spiritual Hope", "Trust in Divine Timing",
+    "Waiting with Anticipation"
+  ],
+  "Miracles": [
+    "Divine Healing", "Divine Wonders", "Faith in Miracles", "Holy Acts",
+    "Miraculous Interventions", "Miracles of Salvation", "Signs of God’s Power",
+    "Spiritual Wonders", "Supernatural Acts", "Unexplainable Events"
+  ],
+  "Modesty": [
+    "God-Focused Life", "Humble Appearance", "Humility", "Inner Humility",
+    "Low-Key Presence", "Modesty in Thought and Speech", "Quiet Dignity",
+    "Respecting Boundaries", "Reverence Through Action", "Simple Living"
+  ],
+  "Mortality": [
+    "Death and Afterlife", "Human Fragility", "Legacy of Life", "Life’s Transience",
+    "Living in the Moment", "Meaning in Mortality", "Reflection on Life’s Shortness",
+    "The Awareness of Death", "The Inevitability of Death",
+    "Understanding Life’s Finiteness"
+  ],
+  "Mystery": [
+    "Deep Spiritual Questions", "Divine Secrets", "Embracing the Unanswered",
+    "Life’s Inexplicable Aspects", "Sacred Mysteries", "Searching for the Divine",
+    "Spiritual Enigma", "The Hidden Divine", "The Unknown",
+    "Unknowable Divine Nature"
+  ],
+  "Prayer": [
+    "Communing with the Divine", "Divine Communication", "Gratitude in Prayer",
+    "Intercessory Prayer", "Personal Connection with God", "Petitioning God",
+    "Prayer as Ritual", "Reciting Sacred Words", "Spiritual Meditation",
+    "Worship Through Prayer"
+  ],
+  "Prophecy": [
+    "Divine Messages", "Divine Revelation", "Foretelling the Future",
+    "Prophetic Gifts", "Prophetic Voices", "Receiving Prophetic Visions",
+    "Revelations of Truth", "Speaking for God", "Spiritual Insight",
+    "Understanding God’s Plan"
+  ],
+  "Providence": [
+    "Benevolent Intervention", "Divine Care", "Divine Direction",
+    "God’s Plan for Humanity", "God’s Protection", "Protection from Harm",
+    "Spiritual Guidance", "The Timing of Events", "Trust in God’s Will",
+    "Unseen Hand of God"
+  ],
+  "Redemption": [
+    "Atoning for Wrongdoings", "Deliverance from Sin", "Divine Deliverance",
+    "Hope in Redemption", "Redemption Through Faith", "Restoration of the Soul",
+    "Restoration to the Divine", "Salvation", "Spiritual Rebirth",
+    "Spiritual Reconciliation"
+  ],
+  "Repentance": [
+    "Atonement for Wrongdoing", "Changing Behavior", "Confession and Apology",
+    "Regret for Sins", "Renewed Relationship with God", "Repentance",
+    "Seeking Forgiveness", "Sincere Regret", "Spiritual Cleansing",
+    "Turning Away from Evil"
+  ],
+  "Reverence": [
+    "Deep Respect for Creation", "Holding God in High Esteem", "Honoring the Divine",
+    "Humility Before God", "Respect for the Divine", "Sacred Awareness", "Sacred Awe",
+    "Spiritual Respect", "Veneration of Sacred Things", "Worship with Reverence"
+  ],
+  "Righteousness": [
+    "Doing Good", "Ethical Living", "Following Divine Laws", "Justice",
+    "Living According to God’s Will", "Moral Authority", "Moral Integrity",
+    "Pursuit of Holiness", "Spiritual Purity", "Uprightness in Action"
+  ],
+  "Sabbath": [
+    "Day of Worship", "Family and Community Worship", "Observance of Sacred Time",
+    "Renewal of Spirit", "Rest and Reflection", "Resting from Work", "Sacred Time",
+    "Spiritual Renewal", "The Holy Day", "Weekly Connection with God"
+  ],
+  "Salvation": [
+    "Deliverance from Sin", "Divine Mercy", "Eternal Salvation",
+    "God’s Plan of Rescue", "God’s Saving Grace", "Hope in Salvation",
+    "Redemption Through Faith", "Spiritual Liberation", "Spiritual Rebirth",
+    "The Path to Freedom"
+  ],
+  "Seeking": [
+    "Desire for Understanding", "Exploration of Spiritual Path", "Inner Longing",
+    "Pursuit of Truth", "Quest for Meaning", "Search for the Divine",
+    "Searching for God’s Will", "Seeking Divine Knowledge", "Spiritual Search",
+    "Yearning for Connection"
+  ],
+  "Spirituality": [
+    "Awareness of Higher Power", "Connection to the Divine", "Divine Connection",
+    "Inner Faith", "Inner Transformation", "Quest for Inner Peace", "Soul Searching",
+    "Spiritual Growth", "The Practice of Faith", "Transcendence"
+  ],
+  "Tradition": [
+    "Ancestral Teachings", "Cultural and Religious Preservation",
+    "Faithful Continuation of Legacy", "Family Heritage", "Maintaining Sacred Culture",
+    "Passing Down Beliefs", "Preserving Rituals", "Rituals of the Ancestors",
+    "Sacred Customs", "Spiritual Practices"
+  ],
+  "Transience": [
+    "Appreciation for the Present", "Awareness of Life’s Ephemeral Nature",
+    "Fleeting Moments", "Impermanence of All Things", "Living in the Moment",
+    "Mortality", "The Temporary Nature of Life", "The Temporary State of Existence",
+    "Time’s Passing", "Transience in the Context of Eternity"
+  ],
+  "Truth": [
+    "Absolute Reality", "Alignment with God’s Will", "Divine Truth", "Revealed Truth",
+    "Seeking God’s Truth", "Spiritual Authenticity", "The Path to Understanding",
+    "The Truth of Existence", "Truth in Faith", "Unchanging Divine Principles"
+  ],
+  "Understanding God’s Plan": [
+    "Aligning with Divine Will", "Divine Wisdom", "Embracing Divine Guidance",
+    "Faith in God’s Plan", "Navigating Divine Direction", "Revelation of the Plan",
+    "Spiritual Vision", "The Unfolding of Creation", "Trusting the Divine Path",
+    "Understanding the Greater Purpose"
+  ],
+  "Worship": [
+    "Acts of Devotion", "Adoration of God", "Divine Praise", "Expressing Love for God",
+    "Prayer and Praise", "Ritualized Devotion", "Sacred Reverence", "Spiritual Offering",
+    "Surrender to the Divine", "Worship through Service"
+  ],
+  "Zen": [
+    "Acceptance of the Moment", "Calm in the Storm", "Enlightenment", "Harmony with the Divine",
+    "Inner Peace", "Meditation", "Mindfulness", "Spiritual Awareness",
+    "Spiritual Clarity", "The Present Moment"
+  ],
+  "Zeal": [
+    "Devoted Action", "Eagerness to Serve", "Enthusiasm in Worship", "Intense Devotion",
+    "Passion for the Faith", "Religious Fervor", "Spiritual Commitment",
+    "Uncompromising Faith", "Zealous for God’s Work", "Zealous Pursuit of Righteousness"
+  ],
+  "Zealous Defense": [
+    "Confronting Spiritual Threats", "Defending Divine Truth", "Defense of Sacred Tradition",
+    "Devoted to Faithfulness", "Protection from Heresy", "Protecting the Faith",
+    "Sacred Duty to Defend", "Standing for God’s Righteousness",
+    "Strong Advocacy for Beliefs", "Upholding God’s Laws"
+  ]
+},
+"Time, Journey & Destiny": {
+  "Aging": [
+    "Embracing the Aging Process", "Generational Change", "Growing Older",
+    "Legacy of Age", "Physical Aging", "Reflection on Life’s Stages",
+    "Spiritual Maturity", "The Passage of Years", "Transition into Later Years",
+    "Wisdom in Time"
+  ],
+  "Destiny": [
+    "Cosmic Order", "Destiny in the Journey", "Divine Appointment"
+
+],
+"Future": [
+  "Anticipation of Life’s Possibilities", "Creating a Better Tomorrow",
+  "Dreams for the Future", "Hope for What’s to Come", "Long-Term Goals",
+  "Life’s Path", "Overcoming Obstacles", "Personal Quest",
+  "Physical and Spiritual Travel", "Pilgrimage of Life", "Pursuit of Meaning",
+  "The Path to Fulfillment", "Transformation Over Time"
+],
+
+  "Succession": [
+    "Family Lineage", "Generational Continuity", "Inheriting Legacies",
+    "Passing the Torch", "Preserving the Legacy", "Spiritual Continuity",
+    "Spiritual Heirship", "Succession Planning", "The Cycle of Leadership",
+    "Transfer of Wisdom"
+  ],
+  "Transition": [
+    "Change in Life Stages", "Life’s Milestones", "Momentous Changes",
+    "Navigating Life Changes", "Overcoming Transition Difficulties",
+    "Personal Growth Through Transition", "Rite of Passage",
+    "Shifting from One Phase to Another", "Transformation in Adulthood",
+    "Transitioning from Youth to Maturity"
+  ],
+  "Zenith": [
+    "Achievement and Fulfillment", "Ascending to the Top", "Climax of Purpose",
+    "Life’s Highest Point", "Peak Experience", "Pinnacle of Achievement",
+    "Reaching One’s Potential", "Reaching the Peak", "The Height of Glory",
+    "Ultimate Success"
+  ]
+}
+}
