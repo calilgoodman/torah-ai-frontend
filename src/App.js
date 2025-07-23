@@ -44,7 +44,7 @@ function App() {
     };
 
     try {
-      const response = await fetch(`${API_BASE_URL}/generate`, {
+      const response = await fetch(`${API_BASE_URL}/query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
