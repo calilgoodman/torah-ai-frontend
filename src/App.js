@@ -9,6 +9,8 @@ function App() {
   const [selectedSources, setSelectedSources] = useState([]);
   const [torahResponses, setTorahResponses] = useState([]);
 
+  const API_BASE_URL = "https://torah-ai-backend.onrender.com";
+
   const sourceCategories = [
     "Torah",
     "Prophets",
@@ -42,7 +44,7 @@ function App() {
     };
 
     try {
-      const response = await fetch('https://torah-ai-backend.onrender.com/generate', {
+      const response = await fetch(`${API_BASE_URL}/generate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
