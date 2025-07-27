@@ -9,7 +9,9 @@ function App() {
   const [selectedSources, setSelectedSources] = useState([]);
   const [torahResponses, setTorahResponses] = useState([]);
 
-  const API_BASE_URL = "https://torah-ai-backend.onrender.com";
+  // Explicitly set your backend URL here
+  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:10000";
+
 
   const sourceCategories = [
     "Torah",
@@ -44,15 +46,17 @@ function App() {
     };
 
     try {
+      // Always fetch with full backend URL
       const response = await fetch(`${API_BASE_URL}/query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
       });
 
-      if (!response.ok) throw new Error('Network response was not ok');
+      if (!response.ok) throw new Error(`Network response was not ok: ${response.statusText}`);
       const data = await response.json();
 
+      // Flatten and set the responses
       const allResponses = Object.values(data).flat();
       setTorahResponses(allResponses);
     } catch (error) {
