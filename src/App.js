@@ -26,18 +26,18 @@ function App() {
   ];
 
   const sourceMap = {
-    "Torah": "torah_texts",
-    "Talmud": "talmud_text",
-    "Midrash": "midrash_text",
-    "Halacha": "halacha_texts",
-    "Mitzvah": "mitzvah_texts",
-    "Kabbalah": "kabbalah_text",
-    "Chasidut": "chassidut_text",
-    "Mussar": "mussar_texts",
-    "Jewish Thought": "jewish_thought_texts",
-    "Prophets": "navi_texts",
-    "Writings": "ketuvim_texts"
-  };
+  "Torah": "torah_texts",
+  "Talmud": "talmud_texts",
+  "Midrash": "midrash_texts",
+  "Halacha": "halacha_texts",
+  "Mitzvah": "mitzvah_texts",
+  "Kabbalah": "kabbalah_texts",
+  "Chasidut": "chassidut_texts",
+  "Mussar": "mussar_texts",
+  "Jewish Thought": "jewish_thought_texts",
+  "Prophets": "navi_texts",
+  "Writings": "ketuvim_texts"
+};
 
   useEffect(() => {
     fetch('/themes_maincat_subcat.json')
