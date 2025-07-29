@@ -1,186 +1,59 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 function App() {
-  const [themes, setThemes] = useState({});
-  const [selectedTheme, setSelectedTheme] = useState('');
-  const [selectedMainCategory, setSelectedMainCategory] = useState('');
-  const [selectedSubCategory, setSelectedSubCategory] = useState('');
+  console.log("🚀 App component loaded");
+
   const [userPrompt, setUserPrompt] = useState('');
-  const [selectedSources, setSelectedSources] = useState([]);
   const [torahResponses, setTorahResponses] = useState([]);
-
-  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:10000";
-
-  const collectionMap = {
-    "Torah": "torah_texts",
-    "Prophets": "navi_texts",
-    "Writings": "ketuvim_texts",
-    "Talmud": "talmud_texts",
-    "Midrash": "midrash_texts",
-    "Halacha": "halacha_texts",
-    "Mitzvah": "mitzvah_texts",
-    "Kabbalah": "kabbalah_texts",
-    "Chasidut": "chassidut_texts",
-    "Mussar": "mussar_texts",
-    "Jewish Thought": "jewish_thought_texts"
-  };
-
-  useEffect(() => {
-    fetch('/themes_maincat_subcat.json')
-      .then(res => res.json())
-      .then(data => setThemes(data))
-      .catch(err => console.error('Failed to load themes:', err));
-  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const payload = {
-      prompt: userPrompt,
-      theme: selectedTheme,
-      main: selectedMainCategory,
-      sub: selectedSubCategory,
-      sources: selectedSources.map(s => collectionMap[s])
-    };
+    console.log("📤 Submitting prompt:", userPrompt);
 
     try {
-      const response = await fetch(`${API_BASE_URL}/query`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
+      const response = await fetch("https://torah-ai-backend.onrender.com/query", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ prompt: userPrompt }),
       });
 
-      if (!response.ok) throw new Error(`Network response was not ok: ${response.statusText}`);
-
       const data = await response.json();
+      console.log("📥 Data received from backend:", data);
 
-      // 🔍 LOG RAW BACKEND RESPONSE
-      console.log("Raw /query response ➤", data);
-
-      const allResponses = Object.values(data).flat();
-
-      // 🔍 LOG FLATTENED ARRAY
-      console.log("Flattened response ➤", allResponses);
-
-      setTorahResponses(allResponses);
+      setTorahResponses(data.sources);
     } catch (error) {
-      console.error('Error fetching Torah response:', error);
+      console.error("❌ Error during fetch:", error);
     }
   };
 
   return (
-    <div style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
+    <div className="App">
       <h1>Torah AI Companion</h1>
-
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Theme:</label>
-          <select value={selectedTheme} onChange={(e) => {
-            setSelectedTheme(e.target.value);
-            setSelectedMainCategory('');
-            setSelectedSubCategory('');
-          }}>
-            <option value="">Select Theme</option>
-            {Object.keys(themes).map(theme => (
-              <option key={theme} value={theme}>{theme}</option>
-            ))}
-          </select>
-        </div>
-
-        {selectedTheme && (
-          <div>
-            <label>Main Category:</label>
-            <select value={selectedMainCategory} onChange={(e) => {
-              setSelectedMainCategory(e.target.value);
-              setSelectedSubCategory('');
-            }}>
-              <option value="">Select Main Category</option>
-              {Object.keys(themes[selectedTheme] || {}).map(main => (
-                <option key={main} value={main}>{main}</option>
-              ))}
-            </select>
-          </div>
-        )}
-
-        {selectedMainCategory && (
-          <div>
-            <label>Subcategory:</label>
-            <select value={selectedSubCategory} onChange={(e) => setSelectedSubCategory(e.target.value)}>
-              <option value="">Select Subcategory</option>
-              {(themes[selectedTheme]?.[selectedMainCategory] || []).map(sub => (
-                <option key={sub} value={sub}>{sub}</option>
-              ))}
-            </select>
-          </div>
-        )}
-
-        <div style={{ marginTop: '1rem' }}>
-          <label><strong>Select Source Types:</strong></label>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
-            {Object.keys(collectionMap).map((category) => (
-              <label key={category}>
-                <input
-                  type="checkbox"
-                  value={category}
-                  checked={selectedSources.includes(category)}
-                  onChange={(e) => {
-                    const value = e.target.value;
-                    setSelectedSources(prev =>
-                      e.target.checked
-                        ? [...prev, value]
-                        : prev.filter(v => v !== value)
-                    );
-                  }}
-                />
-                {category}
-              </label>
-            ))}
-          </div>
-        </div>
-
-        <div style={{ marginTop: '1rem' }}>
-          <label>Your Prompt:</label>
-          <input
-            type="text"
-            value={userPrompt}
-            onChange={(e) => setUserPrompt(e.target.value)}
-            placeholder="What are you going through?"
-            style={{ width: '100%', padding: '0.5rem', marginTop: '0.5rem' }}
-          />
-        </div>
-
-        <button type="submit" style={{ marginTop: '1rem', padding: '0.5rem 1rem' }}>
-          Get Torah Response
-        </button>
+        <input
+          type="text"
+          value={userPrompt}
+          onChange={(e) => setUserPrompt(e.target.value)}
+          placeholder="Ask your Torah question..."
+        />
+        <button type="submit">Submit</button>
       </form>
 
-      {torahResponses.length > 0 && (
-        <div style={{ marginTop: '2rem' }}>
-          <h2>Torah Responses:</h2>
-
-          {/* 🧠 Render each response */}
-          {torahResponses.map((res, index) => {
-            const meta = res.metadata || res;
-
-            return (
-              <div key={index} style={{ marginBottom: '1.5rem', borderBottom: '1px solid #ccc', paddingBottom: '1rem' }}>
-                <h3>{meta.source_label ?? "Untitled Source"}</h3>
-                <p><strong>{meta.citation ?? "No citation"}</strong></p>
-
-                {meta.text_en ? (
-                  <p>{meta.text_en}</p>
-                ) : meta.text_he ? (
-                  <p style={{ direction: 'rtl', fontFamily: 'David, serif' }}>
-                    {meta.text_he.slice(0, 1000)}...
-                  </p>
-                ) : (
-                  <p>No text available.</p>
-                )}
-              </div>
-            );
-          })}
-        </div>
-      )}
+      <div>
+        {torahResponses.length > 0 ? (
+          torahResponses.map((source, index) => (
+            <div key={index}>
+              <h3>📘 {source.source_name}</h3>
+              <p><strong>English:</strong> {source.text_en}</p>
+              <p><strong>Hebrew:</strong> {source.text_he}</p>
+            </div>
+          ))
+        ) : (
+          <p>No responses yet.</p>
+        )}
+      </div>
     </div>
   );
 }
