@@ -51,9 +51,17 @@ function App() {
       });
 
       if (!response.ok) throw new Error(`Network response was not ok: ${response.statusText}`);
+
       const data = await response.json();
 
+      // 🔍 LOG RAW BACKEND RESPONSE
+      console.log("Raw /query response ➤", data);
+
       const allResponses = Object.values(data).flat();
+
+      // 🔍 LOG FLATTENED ARRAY
+      console.log("Flattened response ➤", allResponses);
+
       setTorahResponses(allResponses);
     } catch (error) {
       console.error('Error fetching Torah response:', error);
@@ -150,10 +158,7 @@ function App() {
         <div style={{ marginTop: '2rem' }}>
           <h2>Torah Responses:</h2>
 
-          {/* 🔍 Debug Output */}
-          {console.log("Torah Responses Debug ➤", torahResponses)}
-
-          {/* 🧠 Response Rendering */}
+          {/* 🧠 Render each response */}
           {torahResponses.map((res, index) => {
             const meta = res.metadata || res;
 
