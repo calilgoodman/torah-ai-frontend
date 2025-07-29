@@ -80,7 +80,7 @@ function App() {
         docs.forEach((doc, index) => {
           allSources.push({
             source_name: sourceKey,
-            citation: metas[index]?.citation || `Source ${index + 1}`,
+            citation: metas[index]?.citation || null,
             text_en: doc,
             text_he: metas[index]?.text_he || metas[index]?.hebrew || "(Hebrew not available)"
           });
@@ -183,18 +183,25 @@ function App() {
       {responses.length > 0 ? (
         <div style={{ marginTop: "2rem" }}>
           <h2>📘 Responses:</h2>
-          {responses.map((res, index) => (
-            <div key={index} style={{ marginBottom: "2rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
-              <h3>📚 {res.source_name}</h3>
-              <p><strong>Citation:</strong> {res.citation}</p>
+          {responses.map((res, index) => {
+            const cleanedName = res.source_name.replace("_texts", "");
+            const formattedName = cleanedName.charAt(0).toUpperCase() + cleanedName.slice(1);
+            return (
+              <div key={index} style={{ marginBottom: "2rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
+                <h3>📚 {formattedName} #{index + 1}</h3>
+                {res.citation ? (
+                  <p><strong>Citation:</strong> {res.citation}</p>
+                ) : (
+                  <p><strong>Citation:</strong> Unknown</p>
+                )}
+                <p><strong>English:</strong></p>
+                <p style={{ whiteSpace: "pre-wrap" }}>{res.text_en}</p>
 
-              <p><strong>English:</strong></p>
-              <p style={{ whiteSpace: "pre-wrap" }}>{res.text_en}</p>
-
-              <p><strong>Hebrew:</strong></p>
-              <p dir="rtl" style={{ fontFamily: "David, serif", whiteSpace: "pre-wrap" }}>{res.text_he}</p>
-            </div>
-          ))}
+                <p><strong>Hebrew:</strong></p>
+                <p dir="rtl" style={{ fontFamily: "David, serif", whiteSpace: "pre-wrap" }}>{res.text_he}</p>
+              </div>
+            );
+          })}
         </div>
       ) : (
         <p style={{ marginTop: '1rem' }}>ℹ️ No responses yet. Try submitting a question above.</p>
