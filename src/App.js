@@ -67,6 +67,7 @@ function App() {
       });
 
       const data = await response.json();
+      console.log("🧠 Raw data from backend:", data);
 
       const allSources = [];
 
@@ -81,11 +82,12 @@ function App() {
             source_name: sourceKey,
             citation: metas[index]?.citation || `Source ${index + 1}`,
             text_en: doc,
-            text_he: metas[index]?.hebrew || "(Hebrew not available)"
+            text_he: metas[index]?.text_he || metas[index]?.hebrew || "(Hebrew not available)"
           });
         });
       });
 
+      console.log("📦 Processed sources:", allSources);
       setResponses(allSources);
     } catch (error) {
       console.error("❌ Fetch failed:", error);
