@@ -22,11 +22,9 @@ function App() {
       const data = await response.json();
       alert("📥 Data received from backend: " + JSON.stringify(data));
 
-<<<<<<< HEAD
-      setTorahResponses(data.sources);
-=======
       const allResponses = Object.values(data).flat();
       setTorahResponses(allResponses);
+
       const rawTexts = data[0]?.torah_texts?.documents?.[0] || [];
       const rawMetas = data[0]?.torah_texts?.metadatas?.[0] || [];
 
@@ -37,23 +35,15 @@ function App() {
       }));
 
       setTorahResponses(sources);
->>>>>>> 7a509ac (Fix: full working App.js with required backend fields)
     } catch (error) {
       alert("❌ Error during fetch: " + error.message);
       console.error("❌ Fetch failed:", error);
     }
   };
 
-<<<<<<< HEAD
   return (
-    <div className="App" style={{ padding: "1rem", fontFamily: "Arial" }}>
-      <h1>Torah AI Debug Mode</h1>
-      <p>✅ React component rendered</p>
-=======
-    return (
     <div className="App" style={{ padding: "2rem", fontFamily: "Arial, sans-serif" }}>
       <h1>📖 Torah AI Companion</h1>
->>>>>>> 7a509ac (Fix: full working App.js with required backend fields)
 
       <form onSubmit={handleSubmit} style={{ marginBottom: "1rem" }}>
         <input
@@ -68,21 +58,6 @@ function App() {
         </button>
       </form>
 
-<<<<<<< HEAD
-      <div>
-        {torahResponses.length > 0 ? (
-          torahResponses.map((source, index) => (
-            <div key={index} style={{ marginBottom: "1rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
-              <h3>📘 {source.source_name}</h3>
-              <p><strong>English:</strong> {source.text_en}</p>
-              <p><strong>Hebrew:</strong> {source.text_he}</p>
-            </div>
-          ))
-        ) : (
-          <p>ℹ️ No responses yet.</p>
-        )}
-      </div>
-=======
       {torahResponses.length > 0 ? (
         <div style={{ marginTop: "2rem" }}>
           <h2>📘 Torah Responses:</h2>
@@ -99,7 +74,8 @@ function App() {
       ) : (
         <p style={{ marginTop: '1rem' }}>ℹ️ No responses yet. Try submitting a question above.</p>
       )}
->>>>>>> 7a509ac (Fix: full working App.js with required backend fields)
     </div>
   );
 }
+
+export default App;
