@@ -9,7 +9,7 @@ function App() {
   const [selectedSubCategory, setSelectedSubCategory] = useState('');
   const [userPrompt, setUserPrompt] = useState('');
   const [selectedSources, setSelectedSources] = useState([]);
-  const [torahResponses, setTorahResponses] = useState([]);
+  const [responses, setResponses] = useState([]);
 
   const API_BASE_URL = "https://torah-ai-backend.onrender.com";
 
@@ -27,6 +27,20 @@ function App() {
     "Jewish Thought"
   ];
 
+  const sourceMap = {
+    "Torah": "torah_texts",
+    "Talmud": "talmud_text",
+    "Midrash": "midrash_text",
+    "Halacha": "halacha_texts",
+    "Mitzvah": "mitzvah_texts",
+    "Kabbalah": "kabbalah_text",
+    "Chasidut": "chassidut_text",
+    "Mussar": "mussar_texts",
+    "Jewish Thought": "jewish_thought_texts",
+    "Prophets": "navi_texts",
+    "Writings": "ketuvim_texts"
+  };
+
   useEffect(() => {
     fetch('/themes_maincat_subcat.json')
       .then(res => res.json())
@@ -37,12 +51,14 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    const sources = selectedSources.map(s => sourceMap[s] || s.toLowerCase().replace(/ /g, "_") + "_texts");
+
     const payload = {
       prompt: userPrompt,
       theme: selectedTheme,
       main: selectedMainCategory,
       sub: selectedSubCategory,
-      sources: selectedSources.map(s => s.toLowerCase().replace(/ /g, "_") + "_texts")
+      sources: sources
     };
 
     alert("📤 Submitting payload: " + JSON.stringify(payload));
@@ -57,19 +73,25 @@ function App() {
       const data = await response.json();
       alert("📥 Data received from backend: " + JSON.stringify(data));
 
-      const allResponses = Object.values(data).flat();
-      setTorahResponses(allResponses);
+      const allSources = [];
 
-      const rawTexts = data[0]?.torah_texts?.documents?.[0] || [];
-      const rawMetas = data[0]?.torah_texts?.metadatas?.[0] || [];
+      data.forEach(sourceResult => {
+        const sourceKey = Object.keys(sourceResult)[0];
+        const sourceData = sourceResult[sourceKey];
+        const docs = sourceData?.documents?.[0] || [];
+        const metas = sourceData?.metadatas?.[0] || [];
 
-      const sources = rawTexts.map((doc, index) => ({
-        source_name: rawMetas[index]?.citation || `Source ${index + 1}`,
-        text_en: doc,
-        text_he: rawMetas[index]?.hebrew || "(Hebrew not available)"
-      }));
+        docs.forEach((doc, index) => {
+          allSources.push({
+            source_name: sourceKey,
+            citation: metas[index]?.citation || `Source ${index + 1}`,
+            text_en: doc,
+            text_he: metas[index]?.hebrew || "(Hebrew not available)"
+          });
+        });
+      });
 
-      setTorahResponses(sources);
+      setResponses(allSources);
     } catch (error) {
       alert("❌ Error during fetch: " + error.message);
       console.error("❌ Fetch failed:", error);
@@ -162,12 +184,12 @@ function App() {
         </button>
       </form>
 
-      {torahResponses.length > 0 ? (
+      {responses.length > 0 ? (
         <div style={{ marginTop: "2rem" }}>
-          <h2>📘 Torah Responses:</h2>
-          {torahResponses.map((res, index) => (
+          <h2>📘 Responses:</h2>
+          {responses.map((res, index) => (
             <div key={index} style={{ marginBottom: "1.5rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
-              <h3>{res.source_label || res.source_name}</h3>
+              <h3>📚 {res.source_name}</h3>
               <p><strong>{res.citation || "English"}:</strong> {res.text_en}</p>
               <p style={{ direction: "rtl", fontFamily: "David, serif" }}>
                 <strong>Hebrew:</strong> {res.text_he}
