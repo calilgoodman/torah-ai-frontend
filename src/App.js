@@ -186,9 +186,12 @@ function App() {
           {responses.map((res, index) => (
             <div key={index} style={{ marginBottom: "2rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
               <h3>📚 {res.source_name}</h3>
-              <p><strong>{res.citation} (English):</strong></p>
+              <p><strong>Citation:</strong> {res.citation}</p>
+
+              <p><strong>English:</strong></p>
               <p style={{ whiteSpace: "pre-wrap" }}>{res.text_en}</p>
-              <p><strong>{res.citation} (Hebrew):</strong></p>
+
+              <p><strong>Hebrew:</strong></p>
               <p dir="rtl" style={{ fontFamily: "David, serif", whiteSpace: "pre-wrap" }}>{res.text_he}</p>
             </div>
           ))}
