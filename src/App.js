@@ -9,23 +9,21 @@ function App() {
   const [selectedSources, setSelectedSources] = useState([]);
   const [torahResponses, setTorahResponses] = useState([]);
 
-  // Explicitly set your backend URL here
   const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || "http://localhost:10000";
 
-
-  const sourceCategories = [
-    "Torah",
-    "Prophets",
-    "Writings",
-    "Talmud",
-    "Midrash",
-    "Halacha",
-    "Mitzvah",
-    "Kabbalah",
-    "Chasidut",
-    "Mussar",
-    "Jewish Thought"
-  ];
+  const collectionMap = {
+    "Torah": "torah_texts",
+    "Prophets": "navi_texts",
+    "Writings": "ketuvim_texts",
+    "Talmud": "talmud_texts",
+    "Midrash": "midrash_texts",
+    "Halacha": "halacha_texts",
+    "Mitzvah": "mitzvah_texts",
+    "Kabbalah": "kabbalah_texts",
+    "Chasidut": "chassidut_texts",
+    "Mussar": "mussar_texts",
+    "Jewish Thought": "jewish_thought_texts"
+  };
 
   useEffect(() => {
     fetch('/themes_maincat_subcat.json')
@@ -42,11 +40,10 @@ function App() {
       theme: selectedTheme,
       main: selectedMainCategory,
       sub: selectedSubCategory,
-      sources: selectedSources.map(s => s.toLowerCase().replace(/ /g, "_") + "_texts")
+      sources: selectedSources.map(s => collectionMap[s])
     };
 
     try {
-      // Always fetch with full backend URL
       const response = await fetch(`${API_BASE_URL}/query`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -56,7 +53,6 @@ function App() {
       if (!response.ok) throw new Error(`Network response was not ok: ${response.statusText}`);
       const data = await response.json();
 
-      // Flatten and set the responses
       const allResponses = Object.values(data).flat();
       setTorahResponses(allResponses);
     } catch (error) {
@@ -113,7 +109,7 @@ function App() {
         <div style={{ marginTop: '1rem' }}>
           <label><strong>Select Source Types:</strong></label>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '0.5rem' }}>
-            {sourceCategories.map((category) => (
+            {Object.keys(collectionMap).map((category) => (
               <label key={category}>
                 <input
                   type="checkbox"
@@ -153,12 +149,27 @@ function App() {
       {torahResponses.length > 0 && (
         <div style={{ marginTop: '2rem' }}>
           <h2>Torah Responses:</h2>
+
+          {/* 🔍 Debug Output */}
+          <pre style={{ background: '#f9f9f9', padding: '1rem', overflowX: 'auto' }}>
+            {JSON.stringify(torahResponses, null, 2)}
+          </pre>
+
+          {/* 🧠 Response Rendering */}
           {torahResponses.map((res, index) => (
             <div key={index} style={{ marginBottom: '1.5rem', borderBottom: '1px solid #ccc', paddingBottom: '1rem' }}>
-              <h3>{res.source_label}</h3>
-              <p><strong>{res.citation}</strong></p>
-              <p>{res.text_en}</p>
-              <p style={{ direction: 'rtl', fontFamily: 'David, serif' }}>{res.text_he}</p>
+              <h3>{res.source_label ?? "Untitled Source"}</h3>
+              <p><strong>{res.citation ?? "No citation"}</strong></p>
+
+              {res.text_en ? (
+                <p>{res.text_en}</p>
+              ) : res.text_he ? (
+                <p style={{ direction: 'rtl', fontFamily: 'David, serif' }}>
+                  {res.text_he.slice(0, 1000)}...
+                </p>
+              ) : (
+                <p>No text available.</p>
+              )}
             </div>
           ))}
         </div>
