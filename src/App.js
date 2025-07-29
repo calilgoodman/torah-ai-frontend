@@ -151,27 +151,29 @@ function App() {
           <h2>Torah Responses:</h2>
 
           {/* 🔍 Debug Output */}
-          <pre style={{ background: '#f9f9f9', padding: '1rem', overflowX: 'auto' }}>
-            {JSON.stringify(torahResponses, null, 2)}
-          </pre>
+          {console.log("Torah Responses Debug ➤", torahResponses)}
 
           {/* 🧠 Response Rendering */}
-          {torahResponses.map((res, index) => (
-            <div key={index} style={{ marginBottom: '1.5rem', borderBottom: '1px solid #ccc', paddingBottom: '1rem' }}>
-              <h3>{res.source_label ?? "Untitled Source"}</h3>
-              <p><strong>{res.citation ?? "No citation"}</strong></p>
+          {torahResponses.map((res, index) => {
+            const meta = res.metadata || res;
 
-              {res.text_en ? (
-                <p>{res.text_en}</p>
-              ) : res.text_he ? (
-                <p style={{ direction: 'rtl', fontFamily: 'David, serif' }}>
-                  {res.text_he.slice(0, 1000)}...
-                </p>
-              ) : (
-                <p>No text available.</p>
-              )}
-            </div>
-          ))}
+            return (
+              <div key={index} style={{ marginBottom: '1.5rem', borderBottom: '1px solid #ccc', paddingBottom: '1rem' }}>
+                <h3>{meta.source_label ?? "Untitled Source"}</h3>
+                <p><strong>{meta.citation ?? "No citation"}</strong></p>
+
+                {meta.text_en ? (
+                  <p>{meta.text_en}</p>
+                ) : meta.text_he ? (
+                  <p style={{ direction: 'rtl', fontFamily: 'David, serif' }}>
+                    {meta.text_he.slice(0, 1000)}...
+                  </p>
+                ) : (
+                  <p>No text available.</p>
+                )}
+              </div>
+            );
+          })}
         </div>
       )}
     </div>
