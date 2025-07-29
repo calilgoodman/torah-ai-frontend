@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 function App() {
-  alert("🚀 App component loaded");
-
   const [themes, setThemes] = useState({});
   const [selectedTheme, setSelectedTheme] = useState('');
   const [selectedMainCategory, setSelectedMainCategory] = useState('');
@@ -61,8 +59,6 @@ function App() {
       sources: sources
     };
 
-    alert("📤 Submitting payload: " + JSON.stringify(payload));
-
     try {
       const response = await fetch(`${API_BASE_URL}/query`, {
         method: 'POST',
@@ -71,7 +67,6 @@ function App() {
       });
 
       const data = await response.json();
-      alert("📥 Data received from backend: " + JSON.stringify(data));
 
       const allSources = [];
 
@@ -93,7 +88,6 @@ function App() {
 
       setResponses(allSources);
     } catch (error) {
-      alert("❌ Error during fetch: " + error.message);
       console.error("❌ Fetch failed:", error);
     }
   };
@@ -188,12 +182,12 @@ function App() {
         <div style={{ marginTop: "2rem" }}>
           <h2>📘 Responses:</h2>
           {responses.map((res, index) => (
-            <div key={index} style={{ marginBottom: "1.5rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
+            <div key={index} style={{ marginBottom: "2rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
               <h3>📚 {res.source_name}</h3>
-              <p><strong>{res.citation || "English"}:</strong> {res.text_en}</p>
-              <p style={{ direction: "rtl", fontFamily: "David, serif" }}>
-                <strong>Hebrew:</strong> {res.text_he}
-              </p>
+              <p><strong>{res.citation} (English):</strong></p>
+              <p style={{ whiteSpace: "pre-wrap" }}>{res.text_en}</p>
+              <p><strong>{res.citation} (Hebrew):</strong></p>
+              <p dir="rtl" style={{ fontFamily: "David, serif", whiteSpace: "pre-wrap" }}>{res.text_he}</p>
             </div>
           ))}
         </div>
