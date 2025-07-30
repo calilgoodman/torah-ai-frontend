@@ -26,18 +26,18 @@ function App() {
   ];
 
   const sourceMap = {
-  "Torah": "torah_texts",
-  "Talmud": "talmud_texts",
-  "Midrash": "midrash_texts",
-  "Halacha": "halacha_texts",
-  "Mitzvah": "mitzvah_texts",
-  "Kabbalah": "kabbalah_texts",
-  "Chasidut": "chassidut_texts",
-  "Mussar": "mussar_texts",
-  "Jewish Thought": "jewish_thought_texts",
-  "Prophets": "navi_texts",
-  "Writings": "ketuvim_texts"
-};
+    "Torah": "torah_texts",
+    "Talmud": "talmud_texts",
+    "Midrash": "midrash_texts",
+    "Halacha": "halacha_texts",
+    "Mitzvah": "mitzvah_texts",
+    "Kabbalah": "kabbalah_texts",
+    "Chasidut": "chassidut_texts",
+    "Mussar": "mussar_texts",
+    "Jewish Thought": "jewish_thought_texts",
+    "Prophets": "navi_texts",
+    "Writings": "ketuvim_texts"
+  };
 
   useEffect(() => {
     fetch('/themes_maincat_subcat.json')
@@ -183,25 +183,29 @@ function App() {
       {responses.length > 0 ? (
         <div style={{ marginTop: "2rem" }}>
           <h2>📘 Responses:</h2>
-          {responses.map((res, index) => {
-            const cleanedName = res.source_name.replace("_texts", "");
-            const formattedName = cleanedName.charAt(0).toUpperCase() + cleanedName.slice(1);
-            return (
-              <div key={index} style={{ marginBottom: "2rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
-                <h3>📚 {formattedName} #{index + 1}</h3>
-                {res.citation ? (
-                  <p><strong>Citation:</strong> {res.citation}</p>
-                ) : (
-                  <p><strong>Citation:</strong> Unknown</p>
-                )}
-                <p><strong>English:</strong></p>
-                <p style={{ whiteSpace: "pre-wrap" }}>{res.text_en}</p>
+          {(() => {
+            const sourceCounters = {};
+            return responses.map((res, index) => {
+              const sourceKey = res.source_name.replace("_texts", "");
+              const sourceDisplayName = Object.keys(sourceMap).find(key => sourceMap[key] === res.source_name) || sourceKey;
+              sourceCounters[sourceDisplayName] = (sourceCounters[sourceDisplayName] || 0) + 1;
+              return (
+                <div key={index} style={{ marginBottom: "2rem", borderTop: "1px solid #ccc", paddingTop: "1rem" }}>
+                  <h3>📚 {sourceDisplayName} #{sourceCounters[sourceDisplayName]}</h3>
+                  {res.citation ? (
+                    <p><strong>Citation:</strong> {res.citation}</p>
+                  ) : (
+                    <p><strong>Citation:</strong> Unknown</p>
+                  )}
+                  <p><strong>English:</strong></p>
+                  <p style={{ whiteSpace: "pre-wrap" }}>{res.text_en}</p>
 
-                <p><strong>Hebrew:</strong></p>
-                <p dir="rtl" style={{ fontFamily: "David, serif", whiteSpace: "pre-wrap" }}>{res.text_he}</p>
-              </div>
-            );
-          })}
+                  <p><strong>Hebrew:</strong></p>
+                  <p dir="rtl" style={{ fontFamily: "David, serif", whiteSpace: "pre-wrap" }}>{res.text_he}</p>
+                </div>
+              );
+            });
+          })()}
         </div>
       ) : (
         <p style={{ marginTop: '1rem' }}>ℹ️ No responses yet. Try submitting a question above.</p>
