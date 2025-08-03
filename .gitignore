@@ -16,7 +16,6 @@ build/
 __pycache__/
 *.pyc
 *.pyo
-*.sqlite3
 .venv/
 venv/
 
@@ -27,5 +26,10 @@ venv/
 .env.test.local
 .env.production.local
 
-# ChromaDB — tracked outside GitHub
+# Data files
+data/
+*.zip
+
+# SQLite + ChromaDB
+*.sqlite3
 chromadb/
